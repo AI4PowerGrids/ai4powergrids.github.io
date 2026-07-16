@@ -5,7 +5,7 @@ title: Organizers
 
 # Organizers
 
-- **Andrea Britto Mattos Lima** — Microsoft Research (lead organizer)
+- **Andrea Britto Mattos Lima** — Microsoft Research
 - **Thomas Brunschwiler** — IBM Research
 - **Nicolas Christianson** — Johns Hopkins University
 - **Wenqi Cui** — NYU
