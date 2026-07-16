@@ -93,4 +93,4 @@ We encourage submissions from authors of all backgrounds, career stages, institu
 
 Questions: <ai4powergrids@gmail.com>
 
-**Organizers:** Andrea Britto Mattos Lima (Microsoft Research), Baosen Zhang (University of Washington), Wenqi Cui (NYU), Thomas Brunschwiler (IBM Research), Nicolas Christianson (Johns Hopkins University), Rabab Haider (University of Michigan), Christopher Yeh (Harvard).
+**Organizers:** Andrea Britto Mattos Lima (Microsoft Research; lead), Thomas Brunschwiler (IBM Research), Nicolas Christianson (Johns Hopkins University), Wenqi Cui (NYU), Rabab Haider (University of Michigan), Christopher Yeh (Harvard), Baosen Zhang (University of Washington).

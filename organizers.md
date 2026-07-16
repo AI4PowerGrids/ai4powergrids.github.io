@@ -5,13 +5,13 @@ title: Organizers
 
 # Organizers
 
-- **Andrea Britto Mattos Lima** — Microsoft Research
-- **Baosen Zhang** — University of Washington
-- **Wenqi Cui** — NYU
+- **Andrea Britto Mattos Lima** — Microsoft Research (lead organizer)
 - **Thomas Brunschwiler** — IBM Research
 - **Nicolas Christianson** — Johns Hopkins University
+- **Wenqi Cui** — NYU
 - **Rabab Haider** — University of Michigan
 - **Christopher Yeh** — Harvard
+- **Baosen Zhang** — University of Washington
 
 ## Program committee
 
