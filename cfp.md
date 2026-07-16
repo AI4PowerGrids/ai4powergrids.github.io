@@ -83,7 +83,7 @@ Contributed talks (15 min), lightning talks (5 min), and a poster session with a
 
 ## Conflicts of interest
 
-**Organizers may not submit.** Authors with a personal COI (advisor/advisee, close collaborator, or same institution as any organizer) may not submit. Reviewers recuse on COI; submissions involving organizer-maintained benchmarks are routed to a disjoint PC subset.
+**Organizers may not submit.** Authors with a personal COI (advisor/advisee or close collaborator) may not submit. Reviewers recuse on COI; submissions involving organizer-maintained benchmarks are routed to a disjoint PC subset.
 
 ## Diversity and inclusion
 
