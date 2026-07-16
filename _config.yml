@@ -1,0 +1,18 @@
+title: "AI4PowerGrids @ NeurIPS 2026"
+description: "AI Foundations for Power Grids: From Models to Deployment at Scale — a NeurIPS 2026 workshop."
+theme: jekyll-theme-cayman
+show_downloads: false
+
+# Navigation shown in the sidebar / footer of pages
+nav:
+  - title: Home
+    url: /
+  - title: Call for Papers
+    url: /cfp
+  - title: Program
+    url: /program
+  - title: Organizers
+    url: /organizers
+
+# Used for absolute URLs in feeds, canonical links, etc.
+url: "https://ai4powergrids.github.io"
