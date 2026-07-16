@@ -25,10 +25,3 @@ The power grid is one of the most consequential open problems in applied machine
 4. Negative results and failure modes.
 
 See the [full Call for Papers](cfp.md) for scope, submission format, and the domain evaluation checklist.
-
-## Quick links
-
-- **Submission portal:** [OpenReview URL — TBD]
-- **Program:** [details](program.md)
-- **Organizers:** [see who we are](organizers.md)
-- **Contact:** <ai4powergrids@gmail.com>

@@ -8,10 +8,10 @@ title: Organizers
 - **Andrea Britto Mattos Lima** — Microsoft Research
 - **Baosen Zhang** — University of Washington
 - **Wenqi Cui** — NYU
-- **Thomas Brunschwiler** — IBM Research – Zurich
+- **Thomas Brunschwiler** — IBM Research
 - **Nicolas Christianson** — Johns Hopkins University
 - **Rabab Haider** — University of Michigan
-- **Christopher Yeh** — Caltech / Harvard
+- **Christopher Yeh** — Harvard
 
 ## Program committee
 

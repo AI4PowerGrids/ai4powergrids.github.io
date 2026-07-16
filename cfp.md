@@ -12,7 +12,6 @@ title: Call for Papers
 
 **Date & venue.** December 11 or 12, 2026 — co-located with NeurIPS 2026 in **Sydney, Australia**. In person.
 
-**Website.** [workshop URL TBD]\
 **OpenReview.** [OpenReview venue URL TBD]
 
 ---
@@ -94,4 +93,4 @@ We encourage submissions from authors of all backgrounds, career stages, institu
 
 Questions: <ai4powergrids@gmail.com>
 
-**Organizers:** Andrea Britto Mattos Lima (Microsoft Research), Baosen Zhang (University of Washington), Wenqi Cui (NYU), Thomas Brunschwiler (IBM Research), Nicolas Christianson (Johns Hopkins University), Rabab Haider (University of Michigan), Christopher Yeh (Caltech / Harvard).
+**Organizers:** Andrea Britto Mattos Lima (Microsoft Research), Baosen Zhang (University of Washington), Wenqi Cui (NYU), Thomas Brunschwiler (IBM Research), Nicolas Christianson (Johns Hopkins University), Rabab Haider (University of Michigan), Christopher Yeh (Harvard).
