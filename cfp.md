@@ -10,33 +10,32 @@ title: Call for Papers
 
 **Tagline.** *What would it take for AI models to enter a power grid control room? A workshop on benchmarks, model training, and real-world considerations.*
 
-**Date & venue.** December 11 or 12, 2026 — co-located with NeurIPS 2026 in **Sydney, Australia**. In person.
+**Date & venue.** December 11 or 12, 2026 – co-located with NeurIPS 2026 in **Sydney, Australia**. In person.
 
 **OpenReview.** [OpenReview venue URL TBD]
 
----
 
 ## Scope
 
-The power grid is one of the most consequential open problems in applied machine learning — hard physics constraints, real-time closed-loop operation, structural non-stationarity, and societal-scale consequence — yet it attracts a fraction of the methodological attention given to vision, language, or biology. This workshop brings power systems to the ML community as a first-class methodological challenge and focuses on the central bottleneck: **how to evaluate learning-based methods under realistic and evolving operating conditions.**
+The power grid is one of the most consequential open problems in applied machine learning – hard physics constraints, real-time closed-loop operation, structural non-stationarity, and societal-scale consequence – yet it attracts a fraction of the methodological attention given to vision, language, or biology. This workshop brings power systems to the ML community as a first-class methodological challenge and focuses on the central bottleneck: **how to evaluate learning-based methods under realistic and evolving operating conditions.**
 
 Themes we especially welcome:
 
 - **Open, realistic datasets** as a first-class community deliverable, beyond legacy IEEE test cases.
-- **Feasibility as a metric** — what it means for a stochastic model to "respect the physics", beyond aggregate error.
-- **Structural, not just sample, shift** — real grids change topology hourly and generation mix yearly.
+- **Feasibility as a metric** – what it means for a stochastic model to "respect the physics", beyond aggregate error.
+- **Structural, not just sample, shift** – real grids change topology hourly and generation mix yearly.
 - **Foundation-model claims for grids** and the criteria by which to evaluate them.
-- **Components vs. systems** — a 99% accurate surrogate can destabilise the loop it sits inside.
-- **From eyes-on to eyes-off** — offline, advisory, and narrow-autonomy stages each demand different evidence.
+- **Components vs. systems** – a 99% accurate surrogate can destabilise the loop it sits inside.
+- **From eyes-on to eyes-off** – offline, advisory, and narrow-autonomy stages each demand different evidence.
 
 ## Submission tracks
 
 Authors select one primary track at submission:
 
-1. **Methods with rigorous evaluation** — new models evaluated beyond in-distribution error on a static test case.
-2. **Benchmarks, datasets, and evaluation protocols** — contributions whose primary artifact is *how* we measure.
-3. **Position and empirical-evaluation papers** — systematic studies, audits, or arguments about what good evaluation should look like.
-4. **Negative results and failure modes** — short papers documenting where learned components break, especially under structural or distributional shift.
+1. **Methods with rigorous evaluation** – new models evaluated beyond in-distribution error on a static test case.
+2. **Benchmarks, datasets, and evaluation protocols** – contributions whose primary artifact is *how* we measure.
+3. **Position and empirical-evaluation papers** – systematic studies, audits, or arguments about what good evaluation should look like.
+4. **Negative results and failure modes** – short papers documenting where learned components break, especially under structural or distributional shift.
 
 ## Evaluation checklist
 
@@ -44,7 +43,7 @@ Submissions must include a short **domain checklist** at the end of the paper (o
 
 1. **Physics feasibility.** For methods producing grid quantities: is feasibility reported under the full **AC** power-flow equations, not only the linearised **DC** approximation? Include constraint-violation statistics, not just aggregate error.
 2. **Out-of-distribution evaluation.** Is the method evaluated on at least one network topology, generation mix, or operating regime not seen in training?
-3. **Failure modes.** Are failure cases reported alongside aggregate metrics — worst-case behaviour, tail statistics, or qualitative examples?
+3. **Failure modes.** Are failure cases reported alongside aggregate metrics – worst-case behaviour, tail statistics, or qualitative examples?
 4. **System-level effect** (where applicable). For components inside a larger system, is the downstream effect reported, not only standalone accuracy?
 5. **Data and code.** Will code and data be made available (anonymously at submission, or on acceptance)? A clear release plan is sufficient.
 
@@ -75,7 +74,7 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 
 ## Archival status
 
-**Non-archival** — no formal proceedings. Accepted papers may be posted publicly on OpenReview at the organizers' discretion; authors retain copyright and the right to submit extended versions elsewhere. Per NeurIPS policy, work presented here may later be submitted to a future NeurIPS main track only if **substantially extended**.
+**Non-archival** – no formal proceedings. Accepted papers may be posted publicly on OpenReview at the organizers' discretion; authors retain copyright and the right to submit extended versions elsewhere. Per NeurIPS policy, work presented here may later be submitted to a future NeurIPS main track only if **substantially extended**.
 
 ## Presentation
 

@@ -7,7 +7,7 @@ title: Home
 
 > *What would it take for AI models to enter a power grid control room? A workshop on benchmarks, model training, and real-world considerations.*
 
-The power grid is one of the most consequential open problems in applied machine learning — hard physics constraints, real-time closed-loop operation, structural non-stationarity, and societal-scale consequence — yet it attracts a fraction of the methodological attention given to vision, language, or biology. This workshop brings power systems to the ML community as a first-class methodological challenge and focuses on the central bottleneck: **how to evaluate learning-based methods under realistic and evolving operating conditions.**
+The power grid is one of the most consequential open problems in applied machine learning – hard physics constraints, real-time closed-loop operation, structural non-stationarity, and societal-scale consequence – yet it attracts a fraction of the methodological attention given to vision, language, or biology. This workshop brings power systems to the ML community as a first-class methodological challenge and focuses on the central bottleneck: **how to evaluate learning-based methods under realistic and evolving operating conditions.**
 
 ## Key dates (AoE)
 
