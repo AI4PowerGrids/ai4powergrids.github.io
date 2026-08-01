@@ -12,7 +12,7 @@ title: Call for Papers
 
 **Date & venue.** December 11 or 12, 2026 – co-located with NeurIPS 2026 in **Sydney, Australia**. In person.
 
-**OpenReview.** [OpenReview venue URL TBD]
+**OpenReview.** [openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids](https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids)
 
 
 ## Scope

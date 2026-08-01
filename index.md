@@ -24,4 +24,8 @@ The power grid is one of the most consequential open problems in applied machine
 3. Position and empirical-evaluation papers.
 4. Negative results and failure modes.
 
+## Submit
+
+Submit via OpenReview: [openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids](https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids)
+
 See the [full Call for Papers](cfp.md) for scope, submission format, and the domain evaluation checklist.
