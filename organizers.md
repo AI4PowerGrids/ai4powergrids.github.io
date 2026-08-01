@@ -8,7 +8,7 @@ title: Organizers
 - **Andrea Britto Mattos Lima** – Microsoft Research
 - **Thomas Brunschwiler** – IBM Research
 - **Nicolas Christianson** – Johns Hopkins University
-- **Wenqi Cui** – NYU
+- **Wenqi Cui** – New York University
 - **Rabab Haider** – University of Michigan
 - **Christopher Yeh** – Harvard
 - **Baosen Zhang** – University of Washington
