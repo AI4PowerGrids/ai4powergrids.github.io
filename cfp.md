@@ -51,12 +51,16 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 
 ## Format & submission
 
-- **Length:** up to **4 pages** of main content, unlimited references. Appendices are permitted but reviewers are not obligated to read beyond the main text. Use the NeurIPS 2026 workshop template.
-- **Anonymization:** double-blind; anonymize author identity in the paper, supplementary material, and any code/data links.
+- **Length:** up to **4 pages** of main content, unlimited references. Appendices are permitted but reviewers are not obligated to read beyond the main text. The domain checklist does not count toward the 4-page limit.
+- **Language & file format:** submissions must be in **English** and uploaded as a **single PDF** through OpenReview.
+- **Template:** use the [official NeurIPS 2026 style files](https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip) (LaTeX). Follow the same formatting as main-track submissions.
+- **Anonymization:** double-blind. Remove author names, affiliations, acknowledgments, grant identifiers, repository usernames (e.g., GitHub, Hugging Face), personal or institutional project pages, and any other identifying information from the paper and supplementary material. Cite your own prior work in the third person. Any code, data, models, or demonstrations shared during review must be hosted at an anonymous link or repository.
 - **Track selection:** authors select one **primary track** at submission via the OpenReview form.
 - **Portal:** all submissions via **OpenReview** (link above).
+- **OpenReview accounts:** new OpenReview profiles – particularly those created without an institutional email address – may require **up to two weeks** for approval. Please create or update all author profiles well before the submission deadline.
 - **Reviews:** each paper receives **3 double-blind reviews**.
-- **LLM policy:** authors must disclose any use of LLMs in preparing the submission; fabricated or hallucinated content is grounds for desk rejection. Reviewers may not use LLMs to write reviews.
+- **Camera-ready:** accepted authors will be invited to submit a revised, **de-anonymized** final version incorporating reviewer feedback, within the same 4-page main-text limit. Deadline: **October 15, 2026 (AoE)**.
+- **LLM policy:** submissions must comply with the [NeurIPS 2026 Main Track Handbook](https://neurips.cc/Conferences/2026/MainTrackHandbook). Any reportable use of generative-AI or LLM tools in preparing the manuscript must be disclosed in an unnumbered statement immediately before the references. Use of LLMs *as part of the research method* must be described in the paper in sufficient detail for evaluation and reproducibility. Fabricated or hallucinated content is grounds for desk rejection. Reviewers may not use LLMs to write reviews.
 
 ## Key dates (all AoE)
 
@@ -64,6 +68,7 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 |---|---|
 | Submission deadline | **August 29, 2026** |
 | Author notification | **September 29, 2026** (mandatory NeurIPS deadline) |
+| Camera-ready (de-anonymized) version | **October 15, 2026** |
 | Workshop date | December 11 or 12, 2026 (Sydney) |
 
 ## Eligibility
