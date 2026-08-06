@@ -70,6 +70,7 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 
 - Original work not previously published at an ML venue. Prior appearance in a **power-systems venue** (journal or conference) is acceptable provided this is **explicitly disclosed** and the paper offers new value to an ML audience.
 - Work in progress, position papers, and negative results are welcome.
+- A paper **currently under review at the NeurIPS 2026 main track** may be submitted, but if it is accepted to the main track, the authors must promptly notify us and withdraw it from the workshop program.
 - **Not eligible:** work already published (or accepted, or presented) at NeurIPS, ICML, ICLR, AAAI, or comparable ML venues; work appearing at the NeurIPS 2026 main track; papers outside scope.
 
 ## Archival status
@@ -79,6 +80,13 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 ## Presentation
 
 Contributed talks (15 min), lightning talks (5 min), and a poster session with all accepted papers.
+
+**Location.** AI4PowerGrids takes place **in Sydney**. NeurIPS workshops are in-person events at their assigned location; there is no option to present at the Atlanta or Paris satellite locations instead.
+
+**Presentation policies.**
+- A co-author may present in place of the lead author.
+- Remote presentation is **not** available for contributed and lightning talks.
+- At least one author or designated presenter should attend the workshop to present an accepted poster. In exceptional cases, the organizers may permit another knowledgeable attendee to present the poster on the authors' behalf. Merely displaying an unattended poster does not constitute presentation.
 
 ## Conflicts of interest
 
