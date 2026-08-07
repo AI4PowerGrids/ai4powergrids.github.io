@@ -272,11 +272,15 @@ li { margin: 0.4em 0; }
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 .organizer-card:hover {
-  border-color: var(--hairline-strong);
+  border-color: var(--accent);
   transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid var(--accent);
 }
 .organizer-card img {
   width: 120px;
@@ -305,10 +309,3 @@ li { margin: 0.4em 0; }
   letter-spacing: 0.08em;
   font-weight: 500;
 }
-.organizer-card a {
-  margin-top: 0.6rem;
-  font-size: 0.85rem;
-  color: var(--accent);
-  border-bottom: none;
-}
-.organizer-card a:hover { text-decoration: underline; }
