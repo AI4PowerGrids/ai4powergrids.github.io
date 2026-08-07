@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Call for Papers – AI4PowerGrids @ NeurIPS 2026</title>
+  <meta name="description" content="AI Foundations for Power Grids: From Models to Deployment at Scale – a NeurIPS 2026 workshop." />
+  <meta property="og:title" content="AI4PowerGrids @ NeurIPS 2026" />
+  <meta property="og:description" content="AI Foundations for Power Grids: From Models to Deployment at Scale – a NeurIPS 2026 workshop." />
+  <meta property="og:image" content="/assets/banner.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+</head>
+<body>
+  <header class="hero" role="banner">
+    <div class="hero__image" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__brand" href="/">
+        <img class="nav__mark" src="/assets/favicon.svg" alt="" />
+        <span>AI4PowerGrids</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/cfp">Call for Papers</a></li>
+        <li><a href="/program">Program</a></li>
+        <li><a href="/organizers">Organizers</a></li>
+      </ul>
+    </nav>
+    <div class="hero__content">
+      <p class="hero__eyebrow">NeurIPS 2026 Workshop &middot; Sydney &middot; December 11–12, 2026</p>
+      <h1 class="hero__title">AI Foundations for Power Grids</h1>
+      <p class="hero__subtitle">From models to deployment at scale.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids">Submit on OpenReview</a>
+        <a class="btn btn--ghost" href="/cfp">Call for Papers</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="content" role="main">
+    <h1 id="call-for-papers">Call for Papers</h1>
+
+<h2 id="ai-foundations-for-power-grids-from-models-to-deployment-at-scale">AI Foundations for Power Grids: From Models to Deployment at Scale</h2>
+<h3 id="a-neurips-2026-workshop">A NeurIPS 2026 Workshop</h3>
+
+<p><strong>Tagline.</strong> <em>What would it take for AI models to enter a power grid control room? A workshop on benchmarks, model training, and real-world considerations.</em></p>
+
+<p><strong>Date &amp; venue.</strong> December 11 or 12, 2026 – co-located with NeurIPS 2026 in <strong>Sydney, Australia</strong>. In person.</p>
+
+<p><strong>OpenReview.</strong> <a href="https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids">openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids</a></p>
+
+<h2 id="scope">Scope</h2>
+
+<p>The power grid is one of the most consequential open problems in applied machine learning – hard physics constraints, real-time closed-loop operation, structural non-stationarity, and societal-scale consequence – yet it attracts a fraction of the methodological attention given to vision, language, or biology. This workshop brings power systems to the ML community as a first-class methodological challenge and focuses on the central bottleneck: <strong>how to evaluate learning-based methods under realistic and evolving operating conditions.</strong></p>
+
+<p>Themes we especially welcome:</p>
+
+<ul>
+  <li><strong>Open, realistic datasets</strong> as a first-class community deliverable, beyond legacy IEEE test cases.</li>
+  <li><strong>Feasibility as a metric</strong> – what it means for a stochastic model to “respect the physics”, beyond aggregate error.</li>
+  <li><strong>Structural, not just sample, shift</strong> – real grids change topology hourly and generation mix yearly.</li>
+  <li><strong>Foundation-model claims for grids</strong> and the criteria by which to evaluate them.</li>
+  <li><strong>Components vs. systems</strong> – a 99% accurate surrogate can destabilise the loop it sits inside.</li>
+  <li><strong>From eyes-on to eyes-off</strong> – offline, advisory, and narrow-autonomy stages each demand different evidence.</li>
+</ul>
+
+<h2 id="submission-tracks">Submission tracks</h2>
+
+<p>Authors select one primary track at submission:</p>
+
+<ol>
+  <li><strong>Methods with rigorous evaluation</strong> – new models evaluated beyond in-distribution error on a static test case.</li>
+  <li><strong>Benchmarks, datasets, and evaluation protocols</strong> – contributions whose primary artifact is <em>how</em> we measure.</li>
+  <li><strong>Position and empirical-evaluation papers</strong> – systematic studies, audits, or arguments about what good evaluation should look like.</li>
+  <li><strong>Negative results and failure modes</strong> – short papers documenting where learned components break, especially under structural or distributional shift.</li>
+</ol>
+
+<h2 id="evaluation-checklist">Evaluation checklist</h2>
+
+<p>Submissions must include a short <strong>domain checklist</strong> at the end of the paper (outside the 4-page limit). For each item, state where it is addressed or justify “not applicable”:</p>
+
+<ol>
+  <li><strong>Physics feasibility.</strong> For methods producing grid quantities: is feasibility reported under the full <strong>AC</strong> power-flow equations, not only the linearised <strong>DC</strong> approximation? Include constraint-violation statistics, not just aggregate error.</li>
+  <li><strong>Out-of-distribution evaluation.</strong> Is the method evaluated on at least one network topology, generation mix, or operating regime not seen in training?</li>
+  <li><strong>Failure modes.</strong> Are failure cases reported alongside aggregate metrics – worst-case behaviour, tail statistics, or qualitative examples?</li>
+  <li><strong>System-level effect</strong> (where applicable). For components inside a larger system, is the downstream effect reported, not only standalone accuracy?</li>
+  <li><strong>Data and code.</strong> Will code and data be made available (anonymously at submission, or on acceptance)? A clear release plan is sufficient.</li>
+</ol>
+
+<p>Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarity, significance) <strong>and</strong> on how substantively the paper engages the checklist.</p>
+
+<h2 id="format--submission">Format &amp; submission</h2>
+
+<ul>
+  <li><strong>Length:</strong> up to <strong>4 pages</strong> of main content, unlimited references. Appendices are permitted but reviewers are not obligated to read beyond the main text. The domain checklist does not count toward the 4-page limit.</li>
+  <li><strong>Language &amp; file format:</strong> submissions must be in <strong>English</strong> and uploaded as a <strong>single PDF</strong> through OpenReview.</li>
+  <li><strong>Template:</strong> use the <a href="https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip">official NeurIPS 2026 style files</a> (LaTeX). Follow the same formatting as main-track submissions.</li>
+  <li><strong>Anonymization:</strong> double-blind. Remove author names, affiliations, acknowledgments, grant identifiers, repository usernames (e.g., GitHub, Hugging Face), personal or institutional project pages, and any other identifying information from the paper and supplementary material. Cite your own prior work in the third person. Any code, data, models, or demonstrations shared during review must be hosted at an anonymous link or repository.</li>
+  <li><strong>Track selection:</strong> authors select one <strong>primary track</strong> at submission via the OpenReview form.</li>
+  <li><strong>Portal:</strong> all submissions via <strong>OpenReview</strong> (link above).</li>
+  <li><strong>OpenReview accounts:</strong> new OpenReview profiles – particularly those created without an institutional email address – may require <strong>up to two weeks</strong> for approval. Please create or update all author profiles well before the submission deadline.</li>
+  <li><strong>Reviews:</strong> each paper receives <strong>3 double-blind reviews</strong>.</li>
+  <li><strong>Camera-ready:</strong> accepted authors will be invited to submit a revised, <strong>de-anonymized</strong> final version incorporating reviewer feedback, within the same 4-page main-text limit. Deadline: <strong>October 15, 2026 (AoE)</strong>.</li>
+  <li><strong>LLM policy:</strong> submissions must comply with the <a href="https://neurips.cc/Conferences/2026/MainTrackHandbook">NeurIPS 2026 Main Track Handbook</a>. Any reportable use of generative-AI or LLM tools in preparing the manuscript must be disclosed in an unnumbered statement immediately before the references. Use of LLMs <em>as part of the research method</em> must be described in the paper in sufficient detail for evaluation and reproducibility. Fabricated or hallucinated content is grounds for desk rejection. Reviewers may not use LLMs to write reviews.</li>
+</ul>
+
+<h2 id="key-dates-all-aoe">Key dates (all AoE)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Milestone</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Submission deadline</td>
+      <td><strong>August 29, 2026</strong></td>
+    </tr>
+    <tr>
+      <td>Author notification</td>
+      <td><strong>September 29, 2026</strong> (mandatory NeurIPS deadline)</td>
+    </tr>
+    <tr>
+      <td>Camera-ready (de-anonymized) version</td>
+      <td><strong>October 15, 2026</strong></td>
+    </tr>
+    <tr>
+      <td>Workshop date</td>
+      <td>December 11 or 12, 2026 (Sydney)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="eligibility">Eligibility</h2>
+
+<ul>
+  <li>Original work not previously published at an ML venue. Prior appearance in a <strong>power-systems venue</strong> (journal or conference) is acceptable provided this is <strong>explicitly disclosed</strong> and the paper offers new value to an ML audience.</li>
+  <li>Work in progress, position papers, and negative results are welcome.</li>
+  <li>A paper <strong>currently under review at the NeurIPS 2026 main track</strong> may be submitted, but if it is accepted to the main track, the authors must promptly notify us and withdraw it from the workshop program.</li>
+  <li><strong>Not eligible:</strong> work already published (or accepted, or presented) at NeurIPS, ICML, ICLR, AAAI, or comparable ML venues; work appearing at the NeurIPS 2026 main track; papers outside scope.</li>
+</ul>
+
+<h2 id="archival-status">Archival status</h2>
+
+<p><strong>Non-archival</strong> – no formal proceedings. Accepted papers may be posted publicly on OpenReview at the organizers’ discretion; authors retain copyright and the right to submit extended versions elsewhere. Per NeurIPS policy, work presented here may later be submitted to a future NeurIPS main track only if <strong>substantially extended</strong>.</p>
+
+<h2 id="presentation">Presentation</h2>
+
+<p>Contributed talks (15 min), lightning talks (5 min), and a poster session with all accepted papers.</p>
+
+<p><strong>Location.</strong> AI4PowerGrids takes place <strong>in Sydney</strong>. NeurIPS workshops are in-person events at their assigned location; there is no option to present at the Atlanta or Paris satellite locations instead.</p>
+
+<p><strong>Presentation policies.</strong></p>
+<ul>
+  <li>A co-author may present in place of the lead author.</li>
+  <li>Remote presentation is <strong>not</strong> available for contributed and lightning talks.</li>
+  <li>At least one author or designated presenter should attend the workshop to present an accepted poster. In exceptional cases, the organizers may permit another knowledgeable attendee to present the poster on the authors’ behalf. Merely displaying an unattended poster does not constitute presentation.</li>
+</ul>
+
+<h2 id="conflicts-of-interest">Conflicts of interest</h2>
+
+<p><strong>Organizers may not submit.</strong> Authors with a personal COI (advisor/advisee or close collaborator) may not submit. Reviewers recuse on COI; submissions involving organizer-maintained benchmarks are routed to a disjoint PC subset.</p>
+
+<h2 id="diversity-and-inclusion">Diversity and inclusion</h2>
+
+<p>We encourage submissions from authors of all backgrounds, career stages, institution types, and geographies, and particularly welcome contributions from the power-systems community engaging ML as a methodological challenge.</p>
+
+<h2 id="contact">Contact</h2>
+
+<p>Questions: <a href="mailto:ai4powergrids@gmail.com">ai4powergrids@gmail.com</a></p>
+
+<p><strong>Organizers:</strong> Andrea Britto Mattos Lima (Microsoft Research), Thomas Brunschwiler (IBM Research), Baosen Zhang (University of Washington), Nicolas Christianson (Johns Hopkins University), Wenqi Cui (NYU), Rabab Haider (University of Michigan), Christopher Yeh (Harvard).</p>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__institutions" aria-label="Organizing institutions">
+      <span>Organized by researchers at</span>
+      <ul>
+        <li><img src="/assets/logos/microsoft.svg" alt="Microsoft Research" title="Microsoft Research" /></li>
+        <li><img src="/assets/logos/ibm.svg" alt="IBM Research" title="IBM Research" /></li>
+        <li><img src="/assets/logos/uw.png" alt="University of Washington" title="University of Washington" /></li>
+        <li><img src="/assets/logos/jhu.png" alt="Johns Hopkins University" title="Johns Hopkins University" /></li>
+        <li><img src="/assets/logos/nyu.png" alt="NYU" title="NYU" /></li>
+        <li><img src="/assets/logos/michigan.png" alt="University of Michigan" title="University of Michigan" /></li>
+        <li><img src="/assets/logos/harvard.png" alt="Harvard University" title="Harvard University" /></li>
+      </ul>
+    </div>
+    <div class="footer__inner">
+      <p>&copy; AI4PowerGrids Workshop at NeurIPS 2026</p>
+      <p>Contact: <a href="mailto:ai4powergrids@gmail.com">ai4powergrids@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var el = document.querySelector('.countdown');
+      if (!el) return;
+      var deadline = new Date(el.dataset.deadline).getTime();
+      var daysEl = el.querySelector('[data-days]');
+      var unitEl = el.querySelector('.countdown__unit');
+      function tick () {
+        var diff = deadline - Date.now();
+        if (diff <= 0) { el.innerHTML = '<span class="countdown__label">Submissions closed</span>'; return; }
+        var days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+        daysEl.textContent = days;
+        if (unitEl) unitEl.textContent = days === 1 ? 'day' : 'days';
+      }
+      tick();
+      setInterval(tick, 60 * 60 * 1000);
+    })();
+  </script>
+</body>
+</html>

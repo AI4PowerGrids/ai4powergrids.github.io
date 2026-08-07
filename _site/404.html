@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not found – AI4PowerGrids @ NeurIPS 2026</title>
+  <meta name="description" content="AI Foundations for Power Grids: From Models to Deployment at Scale – a NeurIPS 2026 workshop." />
+  <meta property="og:title" content="AI4PowerGrids @ NeurIPS 2026" />
+  <meta property="og:description" content="AI Foundations for Power Grids: From Models to Deployment at Scale – a NeurIPS 2026 workshop." />
+  <meta property="og:image" content="/assets/banner.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+</head>
+<body>
+  <header class="hero" role="banner">
+    <div class="hero__image" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__brand" href="/">
+        <img class="nav__mark" src="/assets/favicon.svg" alt="" />
+        <span>AI4PowerGrids</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/cfp">Call for Papers</a></li>
+        <li><a href="/program">Program</a></li>
+        <li><a href="/organizers">Organizers</a></li>
+      </ul>
+    </nav>
+    <div class="hero__content">
+      <p class="hero__eyebrow">NeurIPS 2026 Workshop &middot; Sydney &middot; December 11–12, 2026</p>
+      <h1 class="hero__title">AI Foundations for Power Grids</h1>
+      <p class="hero__subtitle">From models to deployment at scale.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids">Submit on OpenReview</a>
+        <a class="btn btn--ghost" href="/cfp">Call for Papers</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="content" role="main">
+    <h2 id="page-not-found">Page not found</h2>
+
+<p>The page you were looking for isn’t here. It may have moved, or the link may have been mistyped.</p>
+
+<p>Head to the <a href="/">home page</a>, the <a href="/cfp">Call for Papers</a>, or <a href="mailto:ai4powergrids@gmail.com">contact us</a> if you were expecting to find something specific.</p>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__institutions" aria-label="Organizing institutions">
+      <span>Organized by researchers at</span>
+      <ul>
+        <li><img src="/assets/logos/microsoft.svg" alt="Microsoft Research" title="Microsoft Research" /></li>
+        <li><img src="/assets/logos/ibm.svg" alt="IBM Research" title="IBM Research" /></li>
+        <li><img src="/assets/logos/uw.png" alt="University of Washington" title="University of Washington" /></li>
+        <li><img src="/assets/logos/jhu.png" alt="Johns Hopkins University" title="Johns Hopkins University" /></li>
+        <li><img src="/assets/logos/nyu.png" alt="NYU" title="NYU" /></li>
+        <li><img src="/assets/logos/michigan.png" alt="University of Michigan" title="University of Michigan" /></li>
+        <li><img src="/assets/logos/harvard.png" alt="Harvard University" title="Harvard University" /></li>
+      </ul>
+    </div>
+    <div class="footer__inner">
+      <p>&copy; AI4PowerGrids Workshop at NeurIPS 2026</p>
+      <p>Contact: <a href="mailto:ai4powergrids@gmail.com">ai4powergrids@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var el = document.querySelector('.countdown');
+      if (!el) return;
+      var deadline = new Date(el.dataset.deadline).getTime();
+      var daysEl = el.querySelector('[data-days]');
+      var unitEl = el.querySelector('.countdown__unit');
+      function tick () {
+        var diff = deadline - Date.now();
+        if (diff <= 0) { el.innerHTML = '<span class="countdown__label">Submissions closed</span>'; return; }
+        var days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+        daysEl.textContent = days;
+        if (unitEl) unitEl.textContent = days === 1 ? 'day' : 'days';
+      }
+      tick();
+      setInterval(tick, 60 * 60 * 1000);
+    })();
+  </script>
+</body>
+</html>
