@@ -3,12 +3,6 @@ layout: default
 title: Home
 ---
 
-<div class="countdown" data-deadline="2026-08-30T00:00:00-12:00">
-  <span class="countdown__label">Submission deadline in</span>
-  <span class="countdown__value" data-days>—</span>
-  <span class="countdown__unit">days</span>
-</div>
-
 ## About the workshop
 
 > *What would it take for AI models to enter a power grid control room? A workshop on benchmarks, model training, and real-world considerations.*

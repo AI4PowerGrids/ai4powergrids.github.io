@@ -322,12 +322,12 @@ li { margin: 0.4em 0; }
 .countdown {
   display: inline-flex;
   align-items: baseline;
-  gap: 0.6rem;
+  gap: 0.55rem;
   padding: 0.6rem 1rem;
   border: 1px solid var(--accent);
   border-radius: 999px;
-  margin-bottom: 2rem;
   background: rgba(94, 200, 255, 0.06);
+  align-self: center;
 }
 .countdown__label {
   color: var(--text-muted);
