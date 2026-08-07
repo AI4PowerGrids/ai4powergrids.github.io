@@ -118,6 +118,14 @@ hr {
   color: var(--text);
   letter-spacing: 0.02em;
   border-bottom: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.nav__mark {
+  height: 26px;
+  width: 26px;
+  display: block;
 }
 .nav__brand:hover { color: var(--accent); }
 .nav__links {
@@ -308,4 +316,74 @@ li { margin: 0.4em 0; }
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 500;
+}
+
+/* ---------- Countdown ---------- */
+.countdown {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  margin-bottom: 2rem;
+  background: rgba(94, 200, 255, 0.06);
+}
+.countdown__label {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+.countdown__value {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+.countdown__unit {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* ---------- Institution badges ---------- */
+.footer__institutions {
+  max-width: var(--max-wide);
+  margin: 0 auto 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--hairline);
+  text-align: center;
+}
+.footer__institutions > span {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.9rem;
+}
+.footer__institutions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem 2.2rem;
+}
+.footer__institutions li img {
+  height: 40px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.55;
+  transition: opacity 0.2s ease;
+}
+.footer__institutions li img:hover {
+  opacity: 0.9;
 }
