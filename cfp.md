@@ -45,7 +45,7 @@ Submissions must include a short **domain checklist** at the end of the paper (o
 2. **Out-of-distribution evaluation.** Is the method evaluated on at least one network topology, generation mix, or operating regime not seen in training?
 3. **Failure modes.** Are failure cases reported alongside aggregate metrics – worst-case behaviour, tail statistics, or qualitative examples?
 4. **System-level effect** (where applicable). For components inside a larger system, is the downstream effect reported, not only standalone accuracy?
-5. **Data and code.** Will code and data be made available (anonymously at submission, or on acceptance)? A clear release plan is sufficient.
+5. **Data and code.** Will code and data be made available (anonymously at submission, or on acceptance)? A clear release plan is sufficient. *Proprietary code or restricted datasets are acceptable*: state clearly what cannot be released and why, and describe what can be shared (aggregate metrics, synthetic surrogates, algorithm details).
 
 Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarity, significance) **and** on how substantively the paper engages the checklist.
 
