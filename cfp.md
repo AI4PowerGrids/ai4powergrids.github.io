@@ -68,7 +68,7 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 
 | Milestone | Date |
 |---|---|
-| Submission deadline | **August 29, 2026** |
+| Submission deadline | **August 31, 2026** (extended) |
 | Author notification | **September 29, 2026** (mandatory NeurIPS deadline) |
 | Camera-ready (de-anonymized) version | **October 2, 2026** |
 | Workshop date | December 11 or 12, 2026 (Sydney) |
