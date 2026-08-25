@@ -47,13 +47,15 @@ Submissions must include a short **domain checklist** at the end of the paper (o
 4. **System-level effect** (where applicable). For components inside a larger system, is the downstream effect reported, not only standalone accuracy?
 5. **Data and code.** Will code and data be made available (anonymously at submission, or on acceptance)? A clear release plan is sufficient. *Proprietary code or restricted datasets are acceptable*: state clearly what cannot be released and why, and describe what can be shared (aggregate metrics, synthetic surrogates, algorithm details).
 
+**Checklist clarification:** only the domain checklist above is required. Do **not** include the standard NeurIPS Paper Checklist. NeurIPS main-track submission requirements do not otherwise apply to workshop submissions.
+
 Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarity, significance) **and** on how substantively the paper engages the checklist.
 
 ## Format & submission
 
 - **Length:** up to **4 pages** of main content, unlimited references. Appendices are permitted but reviewers are not obligated to read beyond the main text. The domain checklist does not count toward the 4-page limit.
 - **Language & file format:** submissions must be in **English** and uploaded as a **single PDF** through OpenReview.
-- **Template:** use the [official NeurIPS 2026 style files](https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip) (LaTeX). Follow the same formatting as main-track submissions.
+- **Template:** use the [official NeurIPS 2026 style files](https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip) (LaTeX) for typesetting. The workshop requirements on this page govern submissions; using the style files does not require authors to follow NeurIPS main-track submission requirements or include the standard NeurIPS Paper Checklist.
 - **Anonymization:** double-blind. Remove author names, affiliations, acknowledgments, grant identifiers, repository usernames (e.g., GitHub, Hugging Face), personal or institutional project pages, and any other identifying information from the paper and supplementary material. Cite your own prior work in the third person. Any code, data, models, or demonstrations shared during review must be hosted at an anonymous link or repository.
 - **Track selection:** authors select one **primary track** at submission via the OpenReview form.
 - **Portal:** all submissions via **OpenReview** (link above).
