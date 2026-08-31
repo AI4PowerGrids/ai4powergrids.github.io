@@ -30,7 +30,7 @@ Themes we especially welcome:
 
 ## Submission tracks
 
-Authors select one primary track at submission:
+The tracks below describe the kinds of contributions we welcome. They are an organizing lens for review, **not** a form field — there is no track selection step in OpenReview. If you would like your paper considered under a specific track, simply note your primary track in your abstract (e.g., "Primary track: Benchmarks, datasets, and evaluation protocols"); this is optional.
 
 1. **Methods with rigorous evaluation** – new models evaluated beyond in-distribution error on a static test case.
 2. **Benchmarks, datasets, and evaluation protocols** – contributions whose primary artifact is *how* we measure.
@@ -57,7 +57,7 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 - **Language & file format:** submissions must be in **English** and uploaded as a **single PDF** through OpenReview.
 - **Template:** use the [official NeurIPS 2026 style files](https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip) (LaTeX) for typesetting. The workshop requirements on this page govern submissions; using the style files does not require authors to follow NeurIPS main-track submission requirements or include the standard NeurIPS Paper Checklist.
 - **Anonymization:** double-blind. Remove author names, affiliations, acknowledgments, grant identifiers, repository usernames (e.g., GitHub, Hugging Face), personal or institutional project pages, and any other identifying information from the paper and supplementary material. Cite your own prior work in the third person. Any code, data, models, or demonstrations shared during review must be hosted at an anonymous link or repository.
-- **Track selection:** authors select one **primary track** at submission via the OpenReview form.
+- **Track selection:** there is no track field in OpenReview. Indicating a track is optional — if you would like your paper reviewed under a specific track, note it in your abstract.
 - **Portal:** all submissions via **OpenReview** (link above).
 - **OpenReview accounts:** new OpenReview profiles – particularly those created without an institutional email address – may require **up to two weeks** for approval. Please create or update all author profiles well before the submission deadline.
 - **Reviews:** each paper receives **3 double-blind reviews**.
