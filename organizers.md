@@ -53,7 +53,7 @@ title: Organizers
 
 ## Program committee
 
-The full program committee will be listed here after author notification.
+*To be announced.*
 
 ## Contact
 
