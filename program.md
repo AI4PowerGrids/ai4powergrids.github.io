@@ -5,7 +5,7 @@ title: Program
 
 # Program
 
-**Workshop date:** December 11 or 12, 2026. The exact date will be confirmed by NeurIPS.
+**Workshop date:** Saturday, December 12, 2026. Room **MR C2.5 & C2.6**, Sydney.
 
 All times are local to Sydney. The program is subject to change.
 

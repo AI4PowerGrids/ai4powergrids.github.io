@@ -15,7 +15,7 @@ The power grid is one of the most consequential open problems in applied machine
 |---|---|
 | Submission deadline | **August 31, 2026** (extended) |
 | Author notification | **September 29, 2026** |
-| Workshop | **December 11 or 12, 2026** (Sydney) |
+| Workshop | **Saturday, December 12, 2026** (Sydney) |
 
 ## Submission tracks
 

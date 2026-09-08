@@ -10,7 +10,7 @@ title: Call for Papers
 
 **Tagline.** *What would it take for AI models to enter a power grid control room? A workshop on benchmarks, model training, and real-world considerations.*
 
-**Date & venue.** December 11 or 12, 2026 – co-located with NeurIPS 2026 in **Sydney, Australia**. In person.
+**Date & venue.** Saturday, December 12, 2026 – co-located with NeurIPS 2026 in **Sydney, Australia**. In person. Room **MR C2.5 & C2.6**.
 
 **OpenReview.** [openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids](https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/AI4PowerGrids)
 
@@ -71,7 +71,7 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 | Submission deadline | **August 31, 2026** (extended) |
 | Author notification | **September 29, 2026** (mandatory NeurIPS deadline) |
 | Camera-ready (de-anonymized) version | **October 2, 2026** |
-| Workshop date | December 11 or 12, 2026 (Sydney) |
+| Workshop date | Saturday, December 12, 2026 (Sydney), Room MR C2.5 & C2.6 |
 
 ## Eligibility
 
