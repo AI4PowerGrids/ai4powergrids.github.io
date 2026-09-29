@@ -34,7 +34,7 @@ title: Organizers
 <a class="organizer-card" href="https://engineering.nyu.edu/faculty/wenqi-cui">
   <img src="{{ '/assets/people/wenqi.jpg' | relative_url }}" alt="Wenqi Cui" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
   <h3>Wenqi Cui</h3>
-  <p class="organizer-affiliation">NYU</p>
+  <p class="organizer-affiliation">New York University</p>
 </a>
 
 <a class="organizer-card" href="https://www.rababhaider.me/">
