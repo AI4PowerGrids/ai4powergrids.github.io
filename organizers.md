@@ -46,7 +46,7 @@ title: Organizers
 <a class="organizer-card" href="https://www.environment.harvard.edu/people/christopher-yeh">
   <img src="{{ '/assets/people/christopher.jpg' | relative_url }}" alt="Christopher Yeh" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
   <h3>Christopher Yeh</h3>
-  <p class="organizer-affiliation">Harvard</p>
+  <p class="organizer-affiliation">Harvard University</p>
 </a>
 
 </div>
