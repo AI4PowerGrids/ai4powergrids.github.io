@@ -61,7 +61,7 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 - **Portal:** all submissions via **OpenReview** (link above).
 - **OpenReview accounts:** new OpenReview profiles – particularly those created without an institutional email address – may require **up to two weeks** for approval. Please create or update all author profiles well before the submission deadline.
 - **Reviews:** each paper receives **2 double-blind reviews**.
-- **Camera-ready:** accepted authors will be invited to submit a revised, **de-anonymized** final version incorporating reviewer feedback, within the same 4-page main-text limit. Deadline: **October 2, 2026 (AoE)**.
+- **Camera-ready:** accepted authors will be invited to submit a revised, **de-anonymized** final version incorporating reviewer feedback, within the same 4-page main-text limit. Deadline: **November 6, 2026 (AoE)**.
 - **LLM policy:** submissions must comply with the [NeurIPS 2026 Main Track Handbook](https://neurips.cc/Conferences/2026/MainTrackHandbook). Any reportable use of generative-AI or LLM tools in preparing the manuscript must be disclosed in an unnumbered statement immediately before the references. Use of LLMs *as part of the research method* must be described in the paper in sufficient detail for evaluation and reproducibility. Fabricated or hallucinated content is grounds for desk rejection. Reviewers may not use LLMs to write reviews.
 
 ## Key dates (all AoE)
@@ -70,7 +70,7 @@ Reviewers score on standard NeurIPS criteria (novelty, technical quality, clarit
 |---|---|
 | Submission deadline | **August 31, 2026** (extended) |
 | Author notification | **September 29, 2026** (mandatory NeurIPS deadline) |
-| Camera-ready (de-anonymized) version | **October 2, 2026** |
+| Camera-ready (de-anonymized) version | **November 6, 2026** |
 | Workshop date | Saturday, December 12, 2026 (Sydney), Room MR C2.5 & C2.6 |
 
 ## Eligibility
@@ -107,4 +107,4 @@ We encourage submissions from authors of all backgrounds, career stages, institu
 
 Questions: <ai4powergrids@gmail.com>
 
-**Organizers:** Andrea Britto Mattos Lima (Microsoft Research), Thomas Brunschwiler (IBM Research), Baosen Zhang (University of Washington), Nicolas Christianson (Johns Hopkins University), Wenqi Cui (NYU), Rabab Haider (University of Michigan), Christopher Yeh (Harvard).
+**Organizers:** Andrea Britto Mattos Lima (Microsoft Research), Thomas Brunschwiler (IBM Research), Baosen Zhang (University of Washington), Nicolas Christianson (Johns Hopkins University), Wenqi Cui (New York University), Rabab Haider (University of Michigan), Christopher Yeh (Harvard University).
