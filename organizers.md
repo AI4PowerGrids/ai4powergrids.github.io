@@ -53,7 +53,47 @@ title: Organizers
 
 ## Program committee
 
-*To be announced.*
+<ul class="committee-list">
+<li><span class="committee-name">Olayiwola Arowolo</span><span class="committee-aff">Delft University of Technology</span></li>
+<li><span class="committee-name">Matteo Baù</span><span class="committee-aff">Ricerca sul Sistema Energetico</span></li>
+<li><span class="committee-name">Ricardo Bessa</span><span class="committee-aff">INESC TEC</span></li>
+<li><span class="committee-name">Luke Bhan</span><span class="committee-aff">University of California, San Diego</span></li>
+<li><span class="committee-name">Margaret Capetz</span><span class="committee-aff">University of Washington</span></li>
+<li><span class="committee-name">Cong Chen</span><span class="committee-aff">Dartmouth College</span></li>
+<li><span class="committee-name">James Y. Chen</span><span class="committee-aff">Massachusetts Institute of Technology</span></li>
+<li><span class="committee-name">Richard Chen</span><span class="committee-aff">California Institute of Technology</span></li>
+<li><span class="committee-name">Wenjun Chen</span><span class="committee-aff">Meta</span></li>
+<li><span class="committee-name">Yize Chen</span><span class="committee-aff">University of Alberta</span></li>
+<li><span class="committee-name">Jorge Cortes</span><span class="committee-aff">University of California, San Diego</span></li>
+<li><span class="committee-name">Yiwei Dong</span><span class="committee-aff">New York University</span></li>
+<li><span class="committee-name">Zhiyuan Fan</span><span class="committee-aff">Harvard University</span></li>
+<li><span class="committee-name">Panagiotis D. Grontas</span><span class="committee-aff">IBM</span></li>
+<li><span class="committee-name">Srinivas Harish</span><span class="committee-aff">New York University</span></li>
+<li><span class="committee-name">Xin He</span><span class="committee-aff">New York University</span></li>
+<li><span class="committee-name">Adam Lechowicz</span><span class="committee-aff">University of Massachusetts Amherst</span></li>
+<li><span class="committee-name">Shaoze Li</span><span class="committee-aff">Dartmouth College</span></li>
+<li><span class="committee-name">Tongxin Li</span><span class="committee-aff">The Chinese University of Hong Kong, Shenzhen</span></li>
+<li><span class="committee-name">Enming Liang</span><span class="committee-aff">City University of Hong Kong</span></li>
+<li><span class="committee-name">Jingguan Liu</span><span class="committee-aff">Dartmouth College</span></li>
+<li><span class="committee-name">Zixiao Ma</span><span class="committee-aff">State University of New York at Binghamton</span></li>
+<li><span class="committee-name">Lila Perkins</span><span class="committee-aff">University of Washington</span></li>
+<li><span class="committee-name">Ruonan Pi</span><span class="committee-aff">University of Washington</span></li>
+<li><span class="committee-name">Jorge I Poveda</span><span class="committee-aff">University of California, San Diego</span></li>
+<li><span class="committee-name">Raghav Sharma</span><span class="committee-aff">Workday</span></li>
+<li><span class="committee-name">Ruan Felipe da Silva e Sousa</span><span class="committee-aff">Fundação Getúlio Vargas</span></li>
+<li><span class="committee-name">Thiago Vallin Spina</span><span class="committee-aff">Microsoft</span></li>
+<li><span class="committee-name">Akshay Sreekumar</span><span class="committee-aff">Stanford University</span></li>
+<li><span class="committee-name">Lauren Streitmatter</span><span class="committee-aff">University of Washington</span></li>
+<li><span class="committee-name">Samuel Talkington</span><span class="committee-aff">University of Michigan</span></li>
+<li><span class="committee-name">Yiheng Xie</span><span class="committee-aff">California Institute of Technology</span></li>
+<li><span class="committee-name">Han Xu</span><span class="committee-aff">California Institute of Technology</span></li>
+<li><span class="committee-name">Mingyuan Yan</span><span class="committee-aff">New York University</span></li>
+<li><span class="committee-name">Weiwei Yang</span><span class="committee-aff">Microsoft</span></li>
+<li><span class="committee-name">Jiayi Yao</span><span class="committee-aff">University of Washington</span></li>
+<li><span class="committee-name">Hongyu Yi</span><span class="committee-aff">University of Washington</span></li>
+<li><span class="committee-name">Jingyi Yuan</span><span class="committee-aff">Arizona State University</span></li>
+<li><span class="committee-name">Alessandro Zocca</span><span class="committee-aff">Vrije Universiteit Amsterdam</span></li>
+</ul>
 
 ## Contact
 
