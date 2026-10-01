@@ -88,7 +88,7 @@ title: Organizers
 <li><span class="committee-name">Yiheng Xie</span><span class="committee-aff">California Institute of Technology</span></li>
 <li><span class="committee-name">Han Xu</span><span class="committee-aff">California Institute of Technology</span></li>
 <li><span class="committee-name">Mingyuan Yan</span><span class="committee-aff">New York University</span></li>
-<li><span class="committee-name">Weiwei Yang</span><span class="committee-aff">Microsoft</span></li>
+<li><span class="committee-name">Weiwei Yang</span><span class="committee-aff">Asemic.ai</span></li>
 <li><span class="committee-name">Jiayi Yao</span><span class="committee-aff">University of Washington</span></li>
 <li><span class="committee-name">Hongyu Yi</span><span class="committee-aff">University of Washington</span></li>
 <li><span class="committee-name">Jingyi Yuan</span><span class="committee-aff">Arizona State University</span></li>
