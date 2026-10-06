@@ -505,6 +505,13 @@ li { margin: 0.4em 0; }
   color: var(--text-muted);
 }
 
+/* ---------- Schedule note ---------- */
+.schedule-note {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: -0.75rem 0 2rem;
+}
+
 /* ---------- Reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,

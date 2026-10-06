@@ -9,6 +9,8 @@ The following papers were accepted to the AI4PowerGrids workshop at NeurIPS 2026
 
 ## Oral presentations
 
+*Papers selected for oral presentation are also presented during the poster sessions.*
+
 <div class="paper-list">
 <div class="paper-card">
   <p class="paper-title">Learning Adaptive Topology-Aware Line Margins for AC Optimal Power Flow under Forecast Uncertainty and Distribution Shift</p>

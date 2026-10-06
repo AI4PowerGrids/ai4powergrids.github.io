@@ -7,27 +7,34 @@ title: Program
 
 **Workshop date:** Saturday, December 12, 2026. Room **MR C2.5 & C2.6**, Sydney.
 
-All times are local to Sydney. The program is subject to change.
+All times are local to Sydney. The program is tentative and subject to change.
+
+*NeurIPS will provide coffee, tea, and snacks from 08:00 – 09:30 and 15:00 – 15:30.*
 
 | Time | Session |
 |---|---|
-| 08:20–08:30 | Opening remarks |
-| 08:30–09:00 | Invited talk 1 (25 min + 5 min Q&A) |
-| 09:00–09:30 | Invited talk 2 |
-| 09:30–10:00 | Contributed talks (2 × 15 min) |
-| 10:00–10:30 | Coffee break and poster setup |
-| 10:30–11:00 | Invited talk 3 |
-| 11:00–11:30 | Invited talk 4 |
-| 11:30–11:45 | Lightning talks (3 × 5 min) |
-| 11:45–12:30 | Poster session, part 1 |
-| 12:30–13:30 | Lunch |
-| 13:30–15:00 | Panel: *What would it take for AI models to enter a power grid control room?*<br>Industry perspectives (30 min)<br>Academic perspectives (30 min)<br>Audience Q&A (30 min) |
-| 15:00–15:15 | Lightning talks (3 × 5 min) |
-| 15:15–15:45 | Coffee break and poster session, part 2 |
-| 15:45–16:15 | Invited talk 5 |
-| 16:15–16:45 | Invited talk 6 |
-| 16:45–17:00 | Contributed talk (15 min) |
-| 17:00 | Closing remarks and best-paper announcement |
+| 08:30 – 08:45 | Opening remarks |
+| 08:45 – 09:15 | Invited talk 1 |
+| 09:15 – 09:45 | Invited talk 2 |
+| 09:45 – 10:00 | [Oral presentation](/accepted-papers#oral-presentations) |
+| 10:00 – 10:30 | Break and poster setup |
+| 10:30 – 11:00 | Invited talk 3 |
+| 11:00 – 11:15 | [Oral presentation](/accepted-papers#oral-presentations) |
+| 11:15 – 12:00 | [Poster session](/accepted-papers#poster-presentations), *part 1* |
+| 12:00 – 13:00 | Sponsored network lunch + Invited talk 4 |
+| 13:00 – 13:45 | Panel: *What would it take for AI models to enter a power grid control room?* |
+| 13:45 – 14:00 | [Oral presentation](/accepted-papers#oral-presentations) |
+| 14:00 – 14:30 | Invited talk 5 |
+| 14:30 – 15:00 | Invited talk 6 |
+| 15:00 – 15:30 | Coffee break and [poster session](/accepted-papers#poster-presentations), *part 2* |
+| 15:30 – 16:00 | Invited talk 7 |
+| 16:00 – 16:30 | Invited talk 8 |
+| 16:30 – 16:45 | [Oral presentation](/accepted-papers#oral-presentations) |
+| 16:45 – 17:00 | Closing remarks and best-paper announcement |
+
+<p class="schedule-note"><strong>Durations:</strong> invited talks 25 min + 5 min Q&amp;A &middot; orals 15 min (Q&amp;A during the poster sessions) &middot; panel 30 min + 15 min Q&amp;A</p>
+
+<p class="schedule-note">All accepted papers are on display during both poster sessions.</p>
 
 ## Invited speakers
 
