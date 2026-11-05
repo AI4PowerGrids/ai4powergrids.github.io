@@ -505,6 +505,11 @@ li { margin: 0.4em 0; }
   color: var(--text-muted);
 }
 
+.schedule-table th:first-child,
+.schedule-table td:first-child {
+  white-space: nowrap;
+}
+
 /* ---------- Schedule note ---------- */
 .schedule-note {
   font-size: 0.82rem;

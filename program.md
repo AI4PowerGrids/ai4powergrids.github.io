@@ -7,30 +7,31 @@ title: Program
 
 **Workshop date:** Saturday, December 12, 2026. Room **MR C2.5 & C2.6**, Sydney.
 
-All times are local to Sydney. The program is tentative and subject to change.
+All times are local to Sydney (AEDT).
 
 *NeurIPS will provide coffee, tea, and snacks from 08:00 – 09:30 and 15:00 – 15:30.*
 
 | Time | Session |
 |---|---|
 | 08:30 – 08:45 | Opening remarks |
-| 08:45 – 09:15 | Invited talk 1 |
-| 09:15 – 09:45 | Invited talk 2 |
-| 09:45 – 10:00 | [Oral presentation](/accepted-papers#oral-presentations) |
+| 08:45 – 09:15 | Invited talk: **[Hendrik Hamann](#hendrik-hamann)**<br>*Quo vadis - Grid Foundation Models* |
+| 09:15 – 09:45 | Invited talk: **[Weiwei Yang](#weiwei-yang)**<br>*From GridSFM to Asemic-1: Foundation Models for Feasible Grid Decisions* |
+| 09:45 – 10:00 | **Oral presentation:** [Learning Adaptive Topology-Aware Line Margins for AC Optimal Power Flow under Forecast Uncertainty and Distribution Shift](/accepted-papers#oral-presentations)<br>David Smith, Thomas Morstyn |
 | 10:00 – 10:30 | Break and poster setup |
-| 10:30 – 11:00 | Invited talk 3 |
-| 11:00 – 11:15 | [Oral presentation](/accepted-papers#oral-presentations) |
+| 10:30 – 11:00 | Invited talk: **[Christine Chen](#christine-chen)**<br>*AI for control and operation of modern power grids: opportunities and challenges* |
+| 11:00 – 11:15 | **Oral presentation:** [Benchmarking CPU, GPU, and ML Power-Flow Solvers from 14 to 70,000 Buses](/accepted-papers#oral-presentations)<br>Benjamin Donnot, Sami Tazi, Eva Boguslawski, Noureddine Henka |
 | 11:15 – 12:00 | [Poster session](/accepted-papers#poster-presentations), *part 1* |
-| 12:00 – 13:00 | Sponsored network lunch + Invited talk 4 |
-| 13:00 – 13:45 | Panel: *What would it take for AI models to enter a power grid control room?* |
-| 13:45 – 14:00 | [Oral presentation](/accepted-papers#oral-presentations) |
-| 14:00 – 14:30 | Invited talk 5 |
-| 14:30 – 15:00 | Invited talk 6 |
+| 12:00 – 13:00 | Sponsored network lunch + invited talk: **[Luis Piloto](#luis-piloto)**<br>*Accelerating Power System Optimization with Machine Learning* |
+| 13:00 – 13:45 | Panel: *What would it take for AI models to enter a power grid control room?*<br>Panelists: **[Arnaud Zinflou](#arnaud-zinflou)** and **[Priya Donti](#priya-donti)** |
+| 13:45 – 14:00 | **Oral presentation:** [FLARE: Physics-Grounded Evaluation of Language-Model Agents for Feeder Restoration with Degraded Observations](/accepted-papers#oral-presentations)<br>BHVSP Subrahmanyam, Neeraj Choudhary |
+| 14:00 – 14:30 | Invited talk: **[Pascal Van Hentenryck](#pascal-van-hentenryck)**<br>*Reliable AI for Power Systems Optimization* |
+| 14:30 – 15:00 | Invited talk: **[Minghua Chen](#minghua-chen)**<br>*Machine Learning for Optimal Power Flow: Beyond Soft Penalties to Hard Constraint Guarantees* |
 | 15:00 – 15:30 | Coffee break and [poster session](/accepted-papers#poster-presentations), *part 2* |
-| 15:30 – 16:00 | Invited talk 7 |
-| 16:00 – 16:30 | Invited talk 8 |
-| 16:30 – 16:45 | [Oral presentation](/accepted-papers#oral-presentations) |
+| 15:30 – 16:00 | Invited talk: **[Bernardo Costa](#bernardo-costa)**<br>*Can we detect multistage strategies in the Energy market?* |
+| 16:00 – 16:30 | Invited talk: **[Nando Ochoa](#nando-ochoa)**<br>*Learning Where No Electrical Model Exists: Voltage Calculations from Real Smart Meter Data* |
+| 16:30 – 16:45 | **Oral presentation:** [Toward Out-of-Distribution Generalization in Neural AC Power Flow](/accepted-papers#oral-presentations)<br>Ojas Sanghi, Anvita Bhagavathula, Alvaro Carbonero, Priya L Donti |
 | 16:45 – 17:00 | Closing remarks and best-paper announcement |
+{: .schedule-table}
 
 <p class="schedule-note"><strong>Durations:</strong> invited talks 25 min + 5 min Q&amp;A &middot; orals 15 min (Q&amp;A during the poster sessions) &middot; panel 30 min + 15 min Q&amp;A</p>
 
@@ -40,67 +41,7 @@ All times are local to Sydney. The program is tentative and subject to change.
 
 <div class="people-list">
 
-<div class="person-card">
-  <img src="{{ '/assets/people/weiwei-yang.jpg' | relative_url }}" alt="Weiwei Yang" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
-  <div class="person-card__body">
-    <h3>Weiwei Yang</h3>
-    <p class="person-card__affiliation">Asemic.ai; formerly Microsoft Research</p>
-    <p class="person-card__talk">From GridSFM to Asemic-1: Foundation Models for Feasible Grid Decisions</p>
-    <p class="person-card__bio">Weiwei is the co-founder of Asemic.ai, where she builds foundation models for engineered systems to power civilization, starting with the electric grid. Previously, as a senior director at Microsoft Research, she led the development and open-source release of GridSFM, a foundation model that generalized across diverse power-grid topologies. That work reflects her broader focus at the intersection of AI, physics, and critical infrastructure: creating models that capture the structure and constraints of real engineering systems. At Asemic, she is turning this vision into practical technology that makes the infrastructure society depends on faster, more adaptive, and more resilient under pressure.</p>
-  </div>
-</div>
-
-<div class="person-card">
-  <img src="{{ '/assets/people/bernardo-costa.jpg' | relative_url }}" alt="Bernardo Costa" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
-  <div class="person-card__body">
-    <h3>Bernardo Costa</h3>
-    <p class="person-card__affiliation">School of Applied Mathematics, Getulio Vargas Foundation (FGV EMAp)</p>
-    <p class="person-card__talk">Can we detect multistage strategies in the Energy market?</p>
-    <p class="person-card__bio">Bernardo Costa is a professor of mathematics at the School of Applied Mathematics, Getulio Vargas Foundation (FGV), Brazil. His current research focuses on convex optimization, though he also worked with complex analysis and stochastic processes. He is particularly interested in multistage stochastic optimization and applications to the energy sector, having collaborated for 10 years with the Brazilian ISO in several research projects including modeling and algorithms for efficient operations planning.</p>
-  </div>
-</div>
-
-<div class="person-card">
-  <img src="{{ '/assets/people/minghua-chen.jpg' | relative_url }}" alt="Minghua Chen" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
-  <div class="person-card__body">
-    <h3>Minghua Chen</h3>
-    <p class="person-card__affiliation">The Chinese University of Hong Kong (Shenzhen) and City University of Hong Kong</p>
-    <p class="person-card__talk">Machine Learning for Optimal Power Flow: Beyond Soft Penalties to Hard Constraint Guarantees</p>
-    <p class="person-card__bio">Minghua received his B.Eng. and M.S. degrees from Tsinghua University and his Ph.D. in Electrical Engineering and Computer Sciences from UC Berkeley. He is currently a Presidential Chair Professor at the School of Data Science, The Chinese University of Hong Kong, Shenzhen. His research interests include machine learning for optimization, online algorithms, power system operation, intelligent transportation, and distributed optimization. He has received a number of awards and recognition, including the UC Berkeley Eli Jury Award, and best paper awards from IEEE Transactions on Multimedia, ACM Multimedia, ACM e-Energy, and Nature Communications Editors' Highlights. He currently serves as the Award Chair of ACM SIGEnergy, and TPC Area/Track Chair of ACM e-Energy, IEEE INFOCOM, and NeurIPS. He is a Fellow of the IEEE.</p>
-  </div>
-</div>
-
-<div class="person-card">
-  <img src="{{ '/assets/people/pascal-van-hentenryck.jpg' | relative_url }}" alt="Pascal Van Hentenryck" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
-  <div class="person-card__body">
-    <h3>Pascal Van Hentenryck</h3>
-    <p class="person-card__affiliation">Georgia Tech and Gurobi Optimization</p>
-    <p class="person-card__talk">Reliable AI for Power Systems Optimization</p>
-    <p class="person-card__bio">Pascal Van Hentenryck is the A. Russell Chandler III Chair and Professor in ISyE at Georgia Tech, the director of the US National Science Foundation (NSF) AI Institute for Advances in Optimization (AI4OPT), and the head of the AI Innovation lab at Gurobi Optimization. He was a professor of Computer Science at Brown University for over 20 years and led the optimization research group at National ICT Australia. Van Hentenryck is a pioneer of constraint programming, and designed several optimization systems that have been in commercial use for over 20 years. He has published 6 books and over 400 articles. He is a fellow of AAAI and INFORMS, and the recipient of two honorary degrees and numerous awards. His current research focuses on fusing AI and optimization for engineering with primary applications in energy systems, supply chains, manufacturing, and health care.</p>
-  </div>
-</div>
-
-<div class="person-card">
-  <img src="{{ '/assets/people/nando-ochoa.jpg' | relative_url }}" alt="Nando Ochoa" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
-  <div class="person-card__body">
-    <h3>Nando Ochoa</h3>
-    <p class="person-card__affiliation">University of Melbourne, Australia</p>
-    <p class="person-card__talk">Learning Where No Electrical Model Exists: Voltage Calculations from Real Smart Meter Data</p>
-    <p class="person-card__bio">Luis (Nando) Ochoa is a Professor of Smart Grids and Power Systems at The University of Melbourne. His research focuses on electricity distribution networks, particularly the integration of distributed energy resources and the use of data-driven and AI techniques in low voltage networks, where electrical models are often poor or missing altogether. Working with Australian distribution companies, his team has developed electrical model-free approaches that calculate voltages and operating envelopes directly from real smart meter measurements. He is an IEEE PES Distinguished Lecturer and previously held academic roles at the University of Manchester and the University of Edinburgh.</p>
-  </div>
-</div>
-
-<div class="person-card">
-  <img src="{{ '/assets/people/christine-chen.jpg' | relative_url }}" alt="Christine Chen" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
-  <div class="person-card__body">
-    <h3>Christine Chen</h3>
-    <p class="person-card__affiliation">The University of British Columbia</p>
-    <p class="person-card__talk">AI for control and operation of modern power grids: opportunities and challenges</p>
-    <p class="person-card__bio">Christine Chen is an Associate Professor with the Department of Electrical and Computer Engineering and an Associate Director of the Clean Energy Research Centre at The University of British Columbia. Her research interests include power system modelling, control, and operation. She received the B.A.Sc. degree in engineering science from the University of Toronto and the M.S. and Ph.D. degrees in electrical engineering from the University of Illinois at Urbana-Champaign. Her work has been recognized with a Best Paper Award from the IEEE Transactions on Energy Conversion, an IEEE Power and Energy Society Prize Paper Award, and a "Best of the Best" Prize Conference Paper Award at the IEEE Power and Energy Society General Meeting. Christine serves or has served on the editorial boards of the IEEE Transactions on Power Systems, the IEEE Transactions on Smart Grid, and the IEEE Transactions on Energy Conversion.</p>
-  </div>
-</div>
-
-<div class="person-card">
+<div class="person-card" id="hendrik-hamann">
   <img src="{{ '/assets/people/hendrik-hamann.jpg' | relative_url }}" alt="Hendrik Hamann" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
   <div class="person-card__body">
     <h3>Hendrik Hamann</h3>
@@ -110,7 +51,27 @@ All times are local to Sydney. The program is tentative and subject to change.
   </div>
 </div>
 
-<div class="person-card">
+<div class="person-card" id="weiwei-yang">
+  <img src="{{ '/assets/people/weiwei-yang.jpg' | relative_url }}" alt="Weiwei Yang" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
+  <div class="person-card__body">
+    <h3>Weiwei Yang</h3>
+    <p class="person-card__affiliation">Asemic.ai; formerly Microsoft Research</p>
+    <p class="person-card__talk">From GridSFM to Asemic-1: Foundation Models for Feasible Grid Decisions</p>
+    <p class="person-card__bio">Weiwei is the co-founder of Asemic.ai, where she builds foundation models for engineered systems to power civilization, starting with the electric grid. Previously, as a senior director at Microsoft Research, she led the development and open-source release of GridSFM, a foundation model that generalized across diverse power-grid topologies. That work reflects her broader focus at the intersection of AI, physics, and critical infrastructure: creating models that capture the structure and constraints of real engineering systems. At Asemic, she is turning this vision into practical technology that makes the infrastructure society depends on faster, more adaptive, and more resilient under pressure.</p>
+  </div>
+</div>
+
+<div class="person-card" id="christine-chen">
+  <img src="{{ '/assets/people/christine-chen.jpg' | relative_url }}" alt="Christine Chen" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
+  <div class="person-card__body">
+    <h3>Christine Chen</h3>
+    <p class="person-card__affiliation">The University of British Columbia</p>
+    <p class="person-card__talk">AI for control and operation of modern power grids: opportunities and challenges</p>
+    <p class="person-card__bio">Christine Chen is an Associate Professor with the Department of Electrical and Computer Engineering and an Associate Director of the Clean Energy Research Centre at The University of British Columbia. Her research interests include power system modelling, control, and operation. She received the B.A.Sc. degree in engineering science from the University of Toronto and the M.S. and Ph.D. degrees in electrical engineering from the University of Illinois at Urbana-Champaign. Her work has been recognized with a Best Paper Award from the IEEE Transactions on Energy Conversion, an IEEE Power and Energy Society Prize Paper Award, and a "Best of the Best" Prize Conference Paper Award at the IEEE Power and Energy Society General Meeting. Christine serves or has served on the editorial boards of the IEEE Transactions on Power Systems, the IEEE Transactions on Smart Grid, and the IEEE Transactions on Energy Conversion.</p>
+  </div>
+</div>
+
+<div class="person-card" id="luis-piloto">
   <img src="{{ '/assets/people/luis-piloto.jpg' | relative_url }}" alt="Luis Piloto" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
   <div class="person-card__body">
     <h3>Luis Piloto</h3>
@@ -120,15 +81,53 @@ All times are local to Sydney. The program is tentative and subject to change.
   </div>
 </div>
 
+<div class="person-card" id="pascal-van-hentenryck">
+  <img src="{{ '/assets/people/pascal-van-hentenryck.jpg' | relative_url }}" alt="Pascal Van Hentenryck" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
+  <div class="person-card__body">
+    <h3>Pascal Van Hentenryck</h3>
+    <p class="person-card__affiliation">Georgia Tech and Gurobi Optimization</p>
+    <p class="person-card__talk">Reliable AI for Power Systems Optimization</p>
+    <p class="person-card__bio">Pascal Van Hentenryck is the A. Russell Chandler III Chair and Professor in ISyE at Georgia Tech, the director of the US National Science Foundation (NSF) AI Institute for Advances in Optimization (AI4OPT), and the head of the AI Innovation lab at Gurobi Optimization. He was a professor of Computer Science at Brown University for over 20 years and led the optimization research group at National ICT Australia. Van Hentenryck is a pioneer of constraint programming, and designed several optimization systems that have been in commercial use for over 20 years. He has published 6 books and over 400 articles. He is a fellow of AAAI and INFORMS, and the recipient of two honorary degrees and numerous awards. His current research focuses on fusing AI and optimization for engineering with primary applications in energy systems, supply chains, manufacturing, and health care.</p>
+  </div>
+</div>
+
+<div class="person-card" id="minghua-chen">
+  <img src="{{ '/assets/people/minghua-chen.jpg' | relative_url }}" alt="Minghua Chen" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
+  <div class="person-card__body">
+    <h3>Minghua Chen</h3>
+    <p class="person-card__affiliation">The Chinese University of Hong Kong (Shenzhen) and City University of Hong Kong</p>
+    <p class="person-card__talk">Machine Learning for Optimal Power Flow: Beyond Soft Penalties to Hard Constraint Guarantees</p>
+    <p class="person-card__bio">Minghua received his B.Eng. and M.S. degrees from Tsinghua University and his Ph.D. in Electrical Engineering and Computer Sciences from UC Berkeley. He is currently a Presidential Chair Professor at the School of Data Science, The Chinese University of Hong Kong, Shenzhen. His research interests include machine learning for optimization, online algorithms, power system operation, intelligent transportation, and distributed optimization. He has received a number of awards and recognition, including the UC Berkeley Eli Jury Award, and best paper awards from IEEE Transactions on Multimedia, ACM Multimedia, ACM e-Energy, and Nature Communications Editors' Highlights. He currently serves as the Award Chair of ACM SIGEnergy, and TPC Area/Track Chair of ACM e-Energy, IEEE INFOCOM, and NeurIPS. He is a Fellow of the IEEE.</p>
+  </div>
+</div>
+
+<div class="person-card" id="bernardo-costa">
+  <img src="{{ '/assets/people/bernardo-costa.jpg' | relative_url }}" alt="Bernardo Costa" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
+  <div class="person-card__body">
+    <h3>Bernardo Costa</h3>
+    <p class="person-card__affiliation">School of Applied Mathematics, Getulio Vargas Foundation (FGV EMAp)</p>
+    <p class="person-card__talk">Can we detect multistage strategies in the Energy market?</p>
+    <p class="person-card__bio">Bernardo Costa is a professor of mathematics at the School of Applied Mathematics, Getulio Vargas Foundation (FGV), Brazil. His current research focuses on convex optimization, though he also worked with complex analysis and stochastic processes. He is particularly interested in multistage stochastic optimization and applications to the energy sector, having collaborated for 10 years with the Brazilian ISO in several research projects including modeling and algorithms for efficient operations planning.</p>
+  </div>
+</div>
+
+<div class="person-card" id="nando-ochoa">
+  <img src="{{ '/assets/people/nando-ochoa.jpg' | relative_url }}" alt="Nando Ochoa" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
+  <div class="person-card__body">
+    <h3>Nando Ochoa</h3>
+    <p class="person-card__affiliation">University of Melbourne, Australia</p>
+    <p class="person-card__talk">Learning Where No Electrical Model Exists: Voltage Calculations from Real Smart Meter Data</p>
+    <p class="person-card__bio">Luis (Nando) Ochoa is a Professor of Smart Grids and Power Systems at The University of Melbourne. His research focuses on electricity distribution networks, particularly the integration of distributed energy resources and the use of data-driven and AI techniques in low voltage networks, where electrical models are often poor or missing altogether. Working with Australian distribution companies, his team has developed electrical model-free approaches that calculate voltages and operating envelopes directly from real smart meter measurements. He is an IEEE PES Distinguished Lecturer and previously held academic roles at the University of Manchester and the University of Edinburgh.</p>
+  </div>
+</div>
+
 </div>
 
 ## Invited panelists
 
-*More panelists to be announced.*
-
 <div class="people-list">
 
-<div class="person-card">
+<div class="person-card" id="priya-donti">
   <img src="{{ '/assets/people/priya-donti.jpg' | relative_url }}" alt="Priya Donti" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
   <div class="person-card__body">
     <h3>Priya Donti</h3>
@@ -137,7 +136,7 @@ All times are local to Sydney. The program is tentative and subject to change.
   </div>
 </div>
 
-<div class="person-card">
+<div class="person-card" id="arnaud-zinflou">
   <img src="{{ '/assets/people/arnaud-zinflou.jpg' | relative_url }}" alt="Arnaud Zinflou" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
   <div class="person-card__body">
     <h3>Arnaud Zinflou</h3>
