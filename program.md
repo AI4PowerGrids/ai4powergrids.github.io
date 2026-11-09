@@ -16,20 +16,20 @@ All times are local to Sydney (AEDT).
 | 08:30 – 08:45 | Opening remarks |
 | 08:45 – 09:15 | Invited talk: **[Hendrik Hamann](#hendrik-hamann)**<br>*Quo vadis - Grid Foundation Models* |
 | 09:15 – 09:45 | Invited talk: **[Weiwei Yang](#weiwei-yang)**<br>*From GridSFM to Asemic: Foundation Models for Feasible Grid Decisions* |
-| 09:45 – 10:00 | **Oral presentation:** [Learning Adaptive Topology-Aware Line Margins for AC Optimal Power Flow under Forecast Uncertainty and Distribution Shift](/accepted-papers#oral-presentations)<br>David Smith, Thomas Morstyn |
+| 09:45 – 10:00 | **Oral presentation:** [Learning Adaptive Topology-Aware Line Margins for AC Optimal Power Flow under Forecast Uncertainty and Distribution Shift](https://openreview.net/forum?id=ENjN72fQWM)<br>David Smith, Thomas Morstyn |
 | 10:00 – 10:30 | Break and poster setup |
 | 10:30 – 11:00 | Invited talk: **[Christine Chen](#christine-chen)**<br>*AI for control and operation of modern power grids: opportunities and challenges* |
-| 11:00 – 11:15 | **Oral presentation:** [Benchmarking CPU, GPU, and ML Power-Flow Solvers from 14 to 70,000 Buses](/accepted-papers#oral-presentations)<br>Benjamin Donnot, Sami Tazi, Eva Boguslawski, Noureddine Henka |
+| 11:00 – 11:15 | **Oral presentation:** [Benchmarking CPU, GPU, and ML Power-Flow Solvers from 14 to 70,000 Buses](https://openreview.net/forum?id=X1s5liXmdi)<br>Benjamin Donnot, Sami Tazi, Eva Boguslawski, Noureddine Henka |
 | 11:15 – 12:00 | [Poster session](/accepted-papers#poster-presentations), *part 1* |
 | 12:00 – 13:00 | Sponsored network lunch + invited talk: **[Luis Piloto](#luis-piloto)**<br>*Accelerating Power System Optimization with Machine Learning* |
 | 13:00 – 13:45 | Panel: *What would it take for AI models to enter a power grid control room?*<br>Panelists: **[Arnaud Zinflou](#arnaud-zinflou)** and **[Priya Donti](#priya-donti)** |
-| 13:45 – 14:00 | **Oral presentation:** [FLARE: Physics-Grounded Evaluation of Language-Model Agents for Feeder Restoration with Degraded Observations](/accepted-papers#oral-presentations)<br>BHVSP Subrahmanyam, Neeraj Choudhary |
+| 13:45 – 14:00 | **Oral presentation:** [FLARE: Physics-Grounded Evaluation of Language-Model Agents for Feeder Restoration with Degraded Observations](https://openreview.net/forum?id=MlSQ7ZNHOL)<br>BHVSP Subrahmanyam, Neeraj Choudhary |
 | 14:00 – 14:30 | Invited talk: **[Pascal Van Hentenryck](#pascal-van-hentenryck)**<br>*Reliable AI for Power Systems Optimization* |
 | 14:30 – 15:00 | Invited talk: **[Minghua Chen](#minghua-chen)**<br>*Machine Learning for Optimal Power Flow: Beyond Soft Penalties to Hard Constraint Guarantees* |
 | 15:00 – 15:30 | Coffee break and [poster session](/accepted-papers#poster-presentations), *part 2* |
 | 15:30 – 16:00 | Invited talk: **[Bernardo Costa](#bernardo-costa)**<br>*Can we detect multistage strategies in the Energy market?* |
 | 16:00 – 16:30 | Invited talk: **[Nando Ochoa](#nando-ochoa)**<br>*Learning Where No Electrical Model Exists: Voltage Calculations from Real Smart Meter Data* |
-| 16:30 – 16:45 | **Oral presentation:** [Toward Out-of-Distribution Generalization in Neural AC Power Flow](/accepted-papers#oral-presentations)<br>Ojas Sanghi, Anvita Bhagavathula, Alvaro Carbonero, Priya L Donti |
+| 16:30 – 16:45 | **Oral presentation:** [Toward Out-of-Distribution Generalization in Neural AC Power Flow](https://openreview.net/forum?id=vI2EDf8wqw)<br>Ojas Sanghi, Anvita Bhagavathula, Alvaro Carbonero, Priya L Donti |
 | 16:45 – 17:00 | Closing remarks and best-paper announcement |
 {: .schedule-table}
 
