@@ -15,7 +15,7 @@ All times are local to Sydney (AEDT).
 |---|---|
 | 08:30 – 08:45 | Opening remarks |
 | 08:45 – 09:15 | Invited talk: **[Hendrik Hamann](#hendrik-hamann)**<br>*Quo vadis - Grid Foundation Models* |
-| 09:15 – 09:45 | Invited talk: **[Weiwei Yang](#weiwei-yang)**<br>*From GridSFM to Asemic-1: Foundation Models for Feasible Grid Decisions* |
+| 09:15 – 09:45 | Invited talk: **[Weiwei Yang](#weiwei-yang)**<br>*From GridSFM to Asemic: Foundation Models for Feasible Grid Decisions* |
 | 09:45 – 10:00 | **Oral presentation:** [Learning Adaptive Topology-Aware Line Margins for AC Optimal Power Flow under Forecast Uncertainty and Distribution Shift](/accepted-papers#oral-presentations)<br>David Smith, Thomas Morstyn |
 | 10:00 – 10:30 | Break and poster setup |
 | 10:30 – 11:00 | Invited talk: **[Christine Chen](#christine-chen)**<br>*AI for control and operation of modern power grids: opportunities and challenges* |
@@ -47,7 +47,20 @@ All times are local to Sydney (AEDT).
     <h3>Hendrik Hamann</h3>
     <p class="person-card__affiliation">Stony Brook University and Brookhaven National Laboratory</p>
     <p class="person-card__talk">Quo vadis - Grid Foundation Models</p>
-    <p class="person-card__bio">Dr. Hamann is the Chief AI Scientist at Brookhaven National Laboratory for Innovation, Science and Security and a Professor at Stony Brook University. Dr. Hamann spent two decades at IBM Research, most recently as Chief Science Officer for IBM Research at the T.J. Watson Research Center. His technical work centered on AI for science. He helped develop a new generation of AI foundation models, which are massive, physics-informed AI systems that learn from and emulate the complexity of natural and engineered environments. He now spearheads the development of AI foundation models for the electric grid, designed to improve resilience and accelerate grid modernization. Dr. Hamann, a Fellow of the American Physical Society, authored over 260 scientific papers and holds more than 180 patents. His contributions have earned him honors, including the American Institute of Physics Prize for Industrial Applications of Physics and the Cozzarelli Prize of the National Academy of Sciences.</p>
+    <details class="person-card__details">
+      <summary aria-label="Abstract for Hendrik Hamann">Abstract</summary>
+      <div class="person-card__abstract">
+        <p>The growing complexity of electric power systems, driven by renewable energy integration, distributed energy resources, and increasingly dynamic operating conditions, calls for new approaches to grid modeling, analysis, and control. While artificial intelligence and machine learning have demonstrated significant promise across individual power system applications, most existing approaches remain task-specific, system-dependent, and limited in their ability to generalize across different networks and operating conditions.</p>
+
+        <p>This talk explores the emerging concept of Grid Foundation Models: large-scale, general-purpose AI models that learn transferable representations of power systems from heterogeneous data, network topology, physical models, and operational experience. We will discuss how advances in foundation models, graph-based learning, and physics-informed AI could enable a shift from narrowly optimized solutions toward adaptable models capable of supporting diverse tasks, including power flow estimation, contingency analysis, stability assessment, forecasting, and operational decision support.</p>
+
+        <p>Particular attention will be given to the challenges that distinguish grid foundation models from foundation models in other domains, including the need to respect physical laws, capture network dependencies, generalize across grid topologies and scales, and provide trustworthy predictions under changing operating conditions. We will conclude with a perspective on the research opportunities and foundational advances needed to develop scalable, physically grounded, and reliable AI models for the next generation of power systems.</p>
+      </div>
+    </details>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Hendrik Hamann">Biography</summary>
+      <p class="person-card__bio">Dr. Hamann is the Chief AI Scientist at Brookhaven National Laboratory for Innovation, Science and Security and a Professor at Stony Brook University. Dr. Hamann spent two decades at IBM Research, most recently as Chief Science Officer for IBM Research at the T.J. Watson Research Center. His technical work centered on AI for science. He helped develop a new generation of AI foundation models, which are massive, physics-informed AI systems that learn from and emulate the complexity of natural and engineered environments. He now spearheads the development of AI foundation models for the electric grid, designed to improve resilience and accelerate grid modernization. Dr. Hamann, a Fellow of the American Physical Society, authored over 260 scientific papers and holds more than 180 patents. His contributions have earned him honors, including the American Institute of Physics Prize for Industrial Applications of Physics and the Cozzarelli Prize of the National Academy of Sciences.</p>
+    </details>
   </div>
 </div>
 
@@ -56,8 +69,19 @@ All times are local to Sydney (AEDT).
   <div class="person-card__body">
     <h3>Weiwei Yang</h3>
     <p class="person-card__affiliation">Asemic.ai; formerly Microsoft Research</p>
-    <p class="person-card__talk">From GridSFM to Asemic-1: Foundation Models for Feasible Grid Decisions</p>
-    <p class="person-card__bio">Weiwei is the co-founder of Asemic.ai, where she builds foundation models for engineered systems to power civilization, starting with the electric grid. Previously, as a senior director at Microsoft Research, she led the development and open-source release of GridSFM, a foundation model that generalized across diverse power-grid topologies. That work reflects her broader focus at the intersection of AI, physics, and critical infrastructure: creating models that capture the structure and constraints of real engineering systems. At Asemic, she is turning this vision into practical technology that makes the infrastructure society depends on faster, more adaptive, and more resilient under pressure.</p>
+    <p class="person-card__talk">From GridSFM to Asemic: Foundation Models for Feasible Grid Decisions</p>
+    <details class="person-card__details">
+      <summary aria-label="Abstract for Weiwei Yang">Abstract</summary>
+      <div class="person-card__abstract">
+        <p>AI has a power grid problem. The power grid has a compute problem. Data centers are arriving faster than transmission lines can be built, so the fastest new capacity is whatever the existing grid can already carry. Finding it is the hard part. AC optimal power flow is nonconvex on its own; siting and switching add discrete choices on top. Each solve is slow, and the search is combinatorial.</p>
+
+        <p>Asemic builds physics foundation models to break this compute bottleneck. We start from GridSFM, the first foundation model for the power grid, which showed that one set of weights can learn AC optimal power flow across various grids. We extend it toward what grid decisions need: utility-scale networks and post-fault dynamics, not just steady state. This talk follows the path from curating public data into realistic grid topologies to building models that respect the physics by design. Then we put them to work on the Texas grid and ask three questions: how much new load can the existing wires carry, what does that do to everyone’s electricity bill, and what happens when something breaks?</p>
+      </div>
+    </details>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Weiwei Yang">Biography</summary>
+      <p class="person-card__bio">Weiwei is the co-founder of Asemic.ai, where she builds foundation models for engineered systems to power civilization, starting with the electric grid. Previously, as a senior director at Microsoft Research, she led the development and open-source release of GridSFM, a foundation model that generalized across diverse power-grid topologies. That work reflects her broader focus at the intersection of AI, physics, and critical infrastructure: creating models that capture the structure and constraints of real engineering systems. At Asemic, she is turning this vision into practical technology that makes the infrastructure society depends on faster, more adaptive, and more resilient under pressure.</p>
+    </details>
   </div>
 </div>
 
@@ -67,7 +91,10 @@ All times are local to Sydney (AEDT).
     <h3>Christine Chen</h3>
     <p class="person-card__affiliation">The University of British Columbia</p>
     <p class="person-card__talk">AI for control and operation of modern power grids: opportunities and challenges</p>
-    <p class="person-card__bio">Christine Chen is an Associate Professor with the Department of Electrical and Computer Engineering and an Associate Director of the Clean Energy Research Centre at The University of British Columbia. Her research interests include power system modelling, control, and operation. She received the B.A.Sc. degree in engineering science from the University of Toronto and the M.S. and Ph.D. degrees in electrical engineering from the University of Illinois at Urbana-Champaign. Her work has been recognized with a Best Paper Award from the IEEE Transactions on Energy Conversion, an IEEE Power and Energy Society Prize Paper Award, and a "Best of the Best" Prize Conference Paper Award at the IEEE Power and Energy Society General Meeting. Christine serves or has served on the editorial boards of the IEEE Transactions on Power Systems, the IEEE Transactions on Smart Grid, and the IEEE Transactions on Energy Conversion.</p>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Christine Chen">Biography</summary>
+      <p class="person-card__bio">Christine Chen is an Associate Professor with the Department of Electrical and Computer Engineering and an Associate Director of the Clean Energy Research Centre at The University of British Columbia. Her research interests include power system modelling, control, and operation. She received the B.A.Sc. degree in engineering science from the University of Toronto and the M.S. and Ph.D. degrees in electrical engineering from the University of Illinois at Urbana-Champaign. Her work has been recognized with a Best Paper Award from the IEEE Transactions on Energy Conversion, an IEEE Power and Energy Society Prize Paper Award, and a "Best of the Best" Prize Conference Paper Award at the IEEE Power and Energy Society General Meeting. Christine serves or has served on the editorial boards of the IEEE Transactions on Power Systems, the IEEE Transactions on Smart Grid, and the IEEE Transactions on Energy Conversion.</p>
+    </details>
   </div>
 </div>
 
@@ -77,7 +104,10 @@ All times are local to Sydney (AEDT).
     <h3>Luis Piloto</h3>
     <p class="person-card__affiliation">Google DeepMind</p>
     <p class="person-card__talk">Accelerating Power System Optimization with Machine Learning</p>
-    <p class="person-card__bio">Luis Piloto is a Staff Research Scientist at Google DeepMind focusing on machine learning for power grid optimization. He has a Ph.D. in neuroscience from Princeton, where he studied sleep and memory using neuroimaging as well as intuitive physics and developmental psychology using neural networks. Before that he received a Bachelor's degree in Cognitive Science and Computer Science at Rutgers University. Prior to that, he was a software developer in the travel industry.</p>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Luis Piloto">Biography</summary>
+      <p class="person-card__bio">Luis Piloto is a Staff Research Scientist at Google DeepMind focusing on machine learning for power grid optimization. He has a Ph.D. in neuroscience from Princeton, where he studied sleep and memory using neuroimaging as well as intuitive physics and developmental psychology using neural networks. Before that he received a Bachelor's degree in Cognitive Science and Computer Science at Rutgers University. Prior to that, he was a software developer in the travel industry.</p>
+    </details>
   </div>
 </div>
 
@@ -87,7 +117,10 @@ All times are local to Sydney (AEDT).
     <h3>Pascal Van Hentenryck</h3>
     <p class="person-card__affiliation">Georgia Tech and Gurobi Optimization</p>
     <p class="person-card__talk">Reliable AI for Power Systems Optimization</p>
-    <p class="person-card__bio">Pascal Van Hentenryck is the A. Russell Chandler III Chair and Professor in ISyE at Georgia Tech, the director of the US National Science Foundation (NSF) AI Institute for Advances in Optimization (AI4OPT), and the head of the AI Innovation lab at Gurobi Optimization. He was a professor of Computer Science at Brown University for over 20 years and led the optimization research group at National ICT Australia. Van Hentenryck is a pioneer of constraint programming, and designed several optimization systems that have been in commercial use for over 20 years. He has published 6 books and over 400 articles. He is a fellow of AAAI and INFORMS, and the recipient of two honorary degrees and numerous awards. His current research focuses on fusing AI and optimization for engineering with primary applications in energy systems, supply chains, manufacturing, and health care.</p>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Pascal Van Hentenryck">Biography</summary>
+      <p class="person-card__bio">Pascal Van Hentenryck is the A. Russell Chandler III Chair and Professor in ISyE at Georgia Tech, the director of the US National Science Foundation (NSF) AI Institute for Advances in Optimization (AI4OPT), and the head of the AI Innovation lab at Gurobi Optimization. He was a professor of Computer Science at Brown University for over 20 years and led the optimization research group at National ICT Australia. Van Hentenryck is a pioneer of constraint programming, and designed several optimization systems that have been in commercial use for over 20 years. He has published 6 books and over 400 articles. He is a fellow of AAAI and INFORMS, and the recipient of two honorary degrees and numerous awards. His current research focuses on fusing AI and optimization for engineering with primary applications in energy systems, supply chains, manufacturing, and health care.</p>
+    </details>
   </div>
 </div>
 
@@ -97,7 +130,10 @@ All times are local to Sydney (AEDT).
     <h3>Minghua Chen</h3>
     <p class="person-card__affiliation">The Chinese University of Hong Kong (Shenzhen) and City University of Hong Kong</p>
     <p class="person-card__talk">Machine Learning for Optimal Power Flow: Beyond Soft Penalties to Hard Constraint Guarantees</p>
-    <p class="person-card__bio">Minghua received his B.Eng. and M.S. degrees from Tsinghua University and his Ph.D. in Electrical Engineering and Computer Sciences from UC Berkeley. He is currently a Presidential Chair Professor at the School of Data Science, The Chinese University of Hong Kong, Shenzhen. His research interests include machine learning for optimization, online algorithms, power system operation, intelligent transportation, and distributed optimization. He has received a number of awards and recognition, including the UC Berkeley Eli Jury Award, and best paper awards from IEEE Transactions on Multimedia, ACM Multimedia, ACM e-Energy, and Nature Communications Editors' Highlights. He currently serves as the Award Chair of ACM SIGEnergy, and TPC Area/Track Chair of ACM e-Energy, IEEE INFOCOM, and NeurIPS. He is a Fellow of the IEEE.</p>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Minghua Chen">Biography</summary>
+      <p class="person-card__bio">Minghua received his B.Eng. and M.S. degrees from Tsinghua University and his Ph.D. in Electrical Engineering and Computer Sciences from UC Berkeley. He is currently a Presidential Chair Professor at the School of Data Science, The Chinese University of Hong Kong, Shenzhen. His research interests include machine learning for optimization, online algorithms, power system operation, intelligent transportation, and distributed optimization. He has received a number of awards and recognition, including the UC Berkeley Eli Jury Award, and best paper awards from IEEE Transactions on Multimedia, ACM Multimedia, ACM e-Energy, and Nature Communications Editors' Highlights. He currently serves as the Award Chair of ACM SIGEnergy, and TPC Area/Track Chair of ACM e-Energy, IEEE INFOCOM, and NeurIPS. He is a Fellow of the IEEE.</p>
+    </details>
   </div>
 </div>
 
@@ -107,7 +143,10 @@ All times are local to Sydney (AEDT).
     <h3>Bernardo Costa</h3>
     <p class="person-card__affiliation">School of Applied Mathematics, Getulio Vargas Foundation (FGV EMAp)</p>
     <p class="person-card__talk">Can we detect multistage strategies in the Energy market?</p>
-    <p class="person-card__bio">Bernardo Costa is a professor of mathematics at the School of Applied Mathematics, Getulio Vargas Foundation (FGV), Brazil. His current research focuses on convex optimization, though he also worked with complex analysis and stochastic processes. He is particularly interested in multistage stochastic optimization and applications to the energy sector, having collaborated for 10 years with the Brazilian ISO in several research projects including modeling and algorithms for efficient operations planning.</p>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Bernardo Costa">Biography</summary>
+      <p class="person-card__bio">Bernardo Costa is a professor of mathematics at the School of Applied Mathematics, Getulio Vargas Foundation (FGV), Brazil. His current research focuses on convex optimization, though he also worked with complex analysis and stochastic processes. He is particularly interested in multistage stochastic optimization and applications to the energy sector, having collaborated for 10 years with the Brazilian ISO in several research projects including modeling and algorithms for efficient operations planning.</p>
+    </details>
   </div>
 </div>
 
@@ -117,7 +156,17 @@ All times are local to Sydney (AEDT).
     <h3>Nando Ochoa</h3>
     <p class="person-card__affiliation">University of Melbourne, Australia</p>
     <p class="person-card__talk">Learning Where No Electrical Model Exists: Voltage Calculations from Real Smart Meter Data</p>
-    <p class="person-card__bio">Luis (Nando) Ochoa is a Professor of Smart Grids and Power Systems at The University of Melbourne. His research focuses on electricity distribution networks, particularly the integration of distributed energy resources and the use of data-driven and AI techniques in low voltage networks, where electrical models are often poor or missing altogether. Working with Australian distribution companies, his team has developed electrical model-free approaches that calculate voltages and operating envelopes directly from real smart meter measurements. He is an IEEE PES Distinguished Lecturer and previously held academic roles at the University of Manchester and the University of Edinburgh.</p>
+    <details class="person-card__details">
+      <summary aria-label="Abstract for Nando Ochoa">Abstract</summary>
+      <div class="person-card__abstract">
+        <p>Most machine learning for power grids assumes an electrical model exists, so training data can be generated by running power flows. While that might hold at transmission and medium voltage levels, it fails in low voltage (LV) networks, the residential infrastructure where rooftop solar, batteries and electric vehicles connect, because distribution companies rarely have accurate electrical models.
+This talk takes a different starting point. Using real smart meter data from Victoria, Australia, it shows that machine learning can capture the physics of three-phase LV networks and calculate voltages for any what-if scenario, with no electrical model and no power flow simulations. This enables fast, accurate assessment of what more of these technologies would do to voltages, without ever building an electrical model.</p>
+      </div>
+    </details>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Nando Ochoa">Biography</summary>
+      <p class="person-card__bio">Luis (Nando) Ochoa is a Professor of Smart Grids and Power Systems at The University of Melbourne. His research focuses on electricity distribution networks, particularly the integration of distributed energy resources and the use of data-driven and AI techniques in low voltage networks, where electrical models are often poor or missing altogether. Working with Australian distribution companies, his team has developed electrical model-free approaches that calculate voltages and operating envelopes directly from real smart meter measurements. He is an IEEE PES Distinguished Lecturer and previously held academic roles at the University of Manchester and the University of Edinburgh.</p>
+    </details>
   </div>
 </div>
 
@@ -132,7 +181,10 @@ All times are local to Sydney (AEDT).
   <div class="person-card__body">
     <h3>Priya Donti</h3>
     <p class="person-card__affiliation">MIT</p>
-    <p class="person-card__bio">Priya Donti is an Assistant Professor and the Silverman (1968) Family Career Development Professor at MIT EECS and LIDS. Her research focuses on safe and robust machine learning for high-renewables power grids. Priya is also a co-founder and Chair of Climate Change AI, a global nonprofit initiative to catalyze impactful work at the intersection of climate change and machine learning. She received her Ph.D. in Computer Science and Public Policy from Carnegie Mellon University. She was recognized in MIT Technology Review's 2021 list of 35 Innovators Under 35, Vox's 2023 Future Perfect 50, and the 2025 TIME100 AI list, and is a recipient of the Schmidt Sciences AI2050 Early Career Fellowship, the ACM SIGEnergy Doctoral Dissertation Award, and best paper honorable mentions at ICML and ACM e-Energy.</p>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Priya Donti">Biography</summary>
+      <p class="person-card__bio">Priya Donti is an Assistant Professor and the Silverman (1968) Family Career Development Professor at MIT EECS and LIDS. Her research focuses on safe and robust machine learning for high-renewables power grids. Priya is also a co-founder and Chair of Climate Change AI, a global nonprofit initiative to catalyze impactful work at the intersection of climate change and machine learning. She received her Ph.D. in Computer Science and Public Policy from Carnegie Mellon University. She was recognized in MIT Technology Review's 2021 list of 35 Innovators Under 35, Vox's 2023 Future Perfect 50, and the 2025 TIME100 AI list, and is a recipient of the Schmidt Sciences AI2050 Early Career Fellowship, the ACM SIGEnergy Doctoral Dissertation Award, and best paper honorable mentions at ICML and ACM e-Energy.</p>
+    </details>
   </div>
 </div>
 
@@ -141,7 +193,10 @@ All times are local to Sydney (AEDT).
   <div class="person-card__body">
     <h3>Arnaud Zinflou</h3>
     <p class="person-card__affiliation">Hydro-Québec</p>
-    <p class="person-card__bio">Arnaud Zinflou is a Principal Research Scientist at the Hydro-Québec Research Institute (IREQ), where he leads research and development activities in artificial intelligence for power systems and industrial applications. His work spans time-series forecasting, computer vision, representation learning, uncertainty quantification, and trustworthy AI. At Hydro-Québec, he contributes to the development and deployment of AI solutions supporting grid operations, asset management, infrastructure inspection, and decision support. His recent research focuses on foundation and world models for time series, self-supervised learning, and operationally reliable AI systems for critical infrastructure. He is the author or co-author of more than 50 scientific papers, 7 book chapters, and 3 patents, and has been an IEEE Senior Member since 2015.</p>
+    <details class="person-card__details">
+      <summary aria-label="Biography of Arnaud Zinflou">Biography</summary>
+      <p class="person-card__bio">Arnaud Zinflou is a Principal Research Scientist at the Hydro-Québec Research Institute (IREQ), where he leads research and development activities in artificial intelligence for power systems and industrial applications. His work spans time-series forecasting, computer vision, representation learning, uncertainty quantification, and trustworthy AI. At Hydro-Québec, he contributes to the development and deployment of AI solutions supporting grid operations, asset management, infrastructure inspection, and decision support. His recent research focuses on foundation and world models for time series, self-supervised learning, and operationally reliable AI systems for critical infrastructure. He is the author or co-author of more than 50 scientific papers, 7 book chapters, and 3 patents, and has been an IEEE Senior Member since 2015.</p>
+    </details>
   </div>
 </div>
 

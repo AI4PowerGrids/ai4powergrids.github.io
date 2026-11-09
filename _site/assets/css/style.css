@@ -363,11 +363,35 @@ li { margin: 0.4em 0; }
   font-size: 0.9rem;
   font-weight: 500;
 }
-.person-card__bio {
+.person-card__bio,
+.person-card__abstract {
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.55;
   color: var(--text);
+}
+.person-card__details {
+  margin-top: 0.65rem;
+  text-align: left;
+}
+.person-card__details > summary {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.person-card__details > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+.person-card__details[open] > summary {
+  margin-bottom: 0.65rem;
+}
+.person-card__abstract p {
+  margin: 0 0 0.75rem;
+}
+.person-card__abstract p:last-child {
+  margin-bottom: 0;
 }
 @media (max-width: 560px) {
   .person-card {
