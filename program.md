@@ -156,6 +156,12 @@ All times are local to Sydney (AEDT).
     <p class="person-card__affiliation">School of Applied Mathematics, Getulio Vargas Foundation (FGV EMAp)</p>
     <p class="person-card__talk">Can we detect multistage strategies in the Energy market?</p>
     <details class="person-card__details">
+      <summary aria-label="Abstract for Bernardo Costa">Abstract</summary>
+      <div class="person-card__abstract">
+        <p>The Brazilian energy market has several mechanisms for pricing, but most dealing with system operation are cost-based.  Historically, hydro generation was dominant, state-owned, and priced by substitute (thermal and deficit costs) at minimum long-term operation costs; recently, a risk-aversion parameter was introduced to further protect against extreme dry scenarios.  However, the energy mix in Brazil has substantially changed, with introduction of wind and solar energy that have introduced new challenges for pricing, making especially relevant intra-day price fluctuations.  There have been proponents of a price/bid-based market for the Brazilian system, but the reality is still that hydro power has a significant market share and even more so in ancillary services such as frequency, ramping, etc.  This poses significant challenges in market design, as hydro strategies involve state, uncertainty and risk-aversion, and therefore can be performed in very long-term horizons that might be difficult to detect (or prove) by the system operator or regulator.  I will discuss some proposals, and mathematical limitations, around those issues.</p>
+      </div>
+    </details>
+    <details class="person-card__details">
       <summary aria-label="Biography of Bernardo Costa">Biography</summary>
       <p class="person-card__bio">Bernardo Costa is a professor of mathematics at the School of Applied Mathematics, Getulio Vargas Foundation (FGV), Brazil. His current research focuses on convex optimization, though he also worked with complex analysis and stochastic processes. He is particularly interested in multistage stochastic optimization and applications to the energy sector, having collaborated for 10 years with the Brazilian ISO in several research projects including modeling and algorithms for efficient operations planning.</p>
     </details>
