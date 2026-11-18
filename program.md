@@ -33,7 +33,7 @@ All times are local to Sydney (AEDT).
 | 16:45 – 17:00 | Closing remarks and best-paper announcement |
 {: .schedule-table}
 
-<p class="schedule-note"><strong>Durations:</strong> invited talks 25 min + 5 min Q&amp;A &middot; orals 15 min (Q&amp;A during the poster sessions) &middot; panel 30 min + 15 min Q&amp;A</p>
+<p class="schedule-note"><strong>Durations:</strong> invited talks 25 min + 5 min Q&amp;A &middot; orals 12 min + 3 min Q&amp;A (longer discussions during the poster sessions) &middot; panel 30 min + 15 min Q&amp;A</p>
 
 <p class="schedule-note">All accepted papers are on display during both poster sessions.</p>
 
