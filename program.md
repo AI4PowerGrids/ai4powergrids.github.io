@@ -21,7 +21,7 @@ All times are local to Sydney (AEDT).
 | 10:30 – 11:00 | Invited talk: **[Hendrik Hamann](#hendrik-hamann)**<br>*Quo vadis - Grid Foundation Models* |
 | 11:00 – 11:15 | **Oral presentation:** [Benchmarking CPU, GPU, and ML Power-Flow Solvers from 14 to 70,000 Buses](https://openreview.net/forum?id=X1s5liXmdi)<br>Benjamin Donnot, Sami Tazi, Eva Boguslawski, Noureddine Henka |
 | 11:15 – 12:00 | [Poster session](/accepted-papers#poster-presentations), *part 1* |
-| 12:00 – 13:00 | Sponsored network lunch + invited talk: **[Luis Piloto](#luis-piloto)**<br>*Accelerating Power System Optimization with Machine Learning* |
+| 12:00 – 13:00 | Networking lunch sponsored by **[Microsoft Research](#lunch-sponsor-heading)** + invited talk: **[Luis Piloto](#luis-piloto)**<br>*Accelerating Power System Optimization with Machine Learning* |
 | 13:00 – 13:45 | Panel: *What would it take for AI models to enter a power grid control room?*<br>Panelists: **[Arnaud Zinflou](#arnaud-zinflou)**, **[Priya Donti](#priya-donti)**, and **[James McNeill](#james-mcneill)** |
 | 13:45 – 14:00 | **Oral presentation:** [FLARE: Physics-Grounded Evaluation of Language-Model Agents for Feeder Restoration with Degraded Observations](https://openreview.net/forum?id=MlSQ7ZNHOL)<br>BHVSP Subrahmanyam, Neeraj Choudhary |
 | 14:00 – 14:30 | Invited talk: **[Pascal Van Hentenryck](#pascal-van-hentenryck)**<br>*Reliable AI for Power Systems Optimization* |
@@ -231,3 +231,9 @@ This talk takes a different starting point. Using real smart meter data from Vic
 </div>
 
 </div>
+
+<aside class="lunch-sponsor" aria-labelledby="lunch-sponsor-heading">
+  <h2 id="lunch-sponsor-heading">Lunch sponsor: Microsoft Research</h2>
+  <p>Microsoft Research Forum is a virtual series showcasing research with real-world impact, from fundamental exploration to responsible AI, scaling innovation through products and open source, and supporting positive change in society.</p>
+  <p><a href="https://aka.ms/Researchforum_neurips">Register to stay connected with MSR</a></p>
+</aside>

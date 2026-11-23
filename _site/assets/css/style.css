@@ -541,6 +541,24 @@ li { margin: 0.4em 0; }
   margin: -0.75rem 0 2rem;
 }
 
+.lunch-sponsor {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  background: var(--bg-elev);
+  border: 1px solid var(--hairline);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+}
+
+.lunch-sponsor h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.lunch-sponsor p:last-child {
+  margin-bottom: 0;
+}
+
 /* ---------- Reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,
