@@ -14,15 +14,15 @@ All times are local to Sydney (AEDT).
 | Time | Session |
 |---|---|
 | 08:30 – 08:45 | Opening remarks |
-| 08:45 – 09:15 | Invited talk: **[Hendrik Hamann](#hendrik-hamann)**<br>*Quo vadis - Grid Foundation Models* |
+| 08:45 – 09:15 | Invited talk: **[Christine Chen](#christine-chen)**<br>*AI for control and operation of modern power grids: opportunities and challenges* |
 | 09:15 – 09:45 | Invited talk: **[Weiwei Yang](#weiwei-yang)**<br>*From GridSFM to Asemic: Foundation Models for Feasible Grid Decisions* |
 | 09:45 – 10:00 | **Oral presentation:** [Learning Adaptive Topology-Aware Line Margins for AC Optimal Power Flow under Forecast Uncertainty and Distribution Shift](https://openreview.net/forum?id=ENjN72fQWM)<br>David Smith, Thomas Morstyn |
 | 10:00 – 10:30 | Break and poster setup |
-| 10:30 – 11:00 | Invited talk: **[Christine Chen](#christine-chen)**<br>*AI for control and operation of modern power grids: opportunities and challenges* |
+| 10:30 – 11:00 | Invited talk: **[Hendrik Hamann](#hendrik-hamann)**<br>*Quo vadis - Grid Foundation Models* |
 | 11:00 – 11:15 | **Oral presentation:** [Benchmarking CPU, GPU, and ML Power-Flow Solvers from 14 to 70,000 Buses](https://openreview.net/forum?id=X1s5liXmdi)<br>Benjamin Donnot, Sami Tazi, Eva Boguslawski, Noureddine Henka |
 | 11:15 – 12:00 | [Poster session](/accepted-papers#poster-presentations), *part 1* |
 | 12:00 – 13:00 | Sponsored network lunch + invited talk: **[Luis Piloto](#luis-piloto)**<br>*Accelerating Power System Optimization with Machine Learning* |
-| 13:00 – 13:45 | Panel: *What would it take for AI models to enter a power grid control room?*<br>Panelists: **[Arnaud Zinflou](#arnaud-zinflou)** and **[Priya Donti](#priya-donti)** |
+| 13:00 – 13:45 | Panel: *What would it take for AI models to enter a power grid control room?*<br>Panelists: **[Arnaud Zinflou](#arnaud-zinflou)**, **[Priya Donti](#priya-donti)**, and **[James McNeill](#james-mcneill)** |
 | 13:45 – 14:00 | **Oral presentation:** [FLARE: Physics-Grounded Evaluation of Language-Model Agents for Feeder Restoration with Degraded Observations](https://openreview.net/forum?id=MlSQ7ZNHOL)<br>BHVSP Subrahmanyam, Neeraj Choudhary |
 | 14:00 – 14:30 | Invited talk: **[Pascal Van Hentenryck](#pascal-van-hentenryck)**<br>*Reliable AI for Power Systems Optimization* |
 | 14:30 – 15:00 | Invited talk: **[Minghua Chen](#minghua-chen)**<br>*Machine Learning for Optimal Power Flow: Beyond Soft Penalties to Hard Constraint Guarantees* |
@@ -41,25 +41,21 @@ All times are local to Sydney (AEDT).
 
 <div class="people-list">
 
-<div class="person-card" id="hendrik-hamann">
-  <img src="{{ '/assets/people/hendrik-hamann.jpg' | relative_url }}" alt="Hendrik Hamann" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
+<div class="person-card" id="christine-chen">
+  <img src="{{ '/assets/people/christine-chen.jpg' | relative_url }}" alt="Christine Chen" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
   <div class="person-card__body">
-    <h3>Hendrik Hamann</h3>
-    <p class="person-card__affiliation">Stony Brook University and Brookhaven National Laboratory</p>
-    <p class="person-card__talk">Quo vadis - Grid Foundation Models</p>
+    <h3>Christine Chen</h3>
+    <p class="person-card__affiliation">The University of British Columbia</p>
+    <p class="person-card__talk">AI for control and operation of modern power grids: opportunities and challenges</p>
     <details class="person-card__details">
-      <summary aria-label="Abstract for Hendrik Hamann">Abstract</summary>
+      <summary aria-label="Abstract for Christine Chen">Abstract</summary>
       <div class="person-card__abstract">
-        <p>The growing complexity of electric power systems, driven by renewable energy integration, distributed energy resources, and increasingly dynamic operating conditions, calls for new approaches to grid modeling, analysis, and control. While artificial intelligence and machine learning have demonstrated significant promise across individual power system applications, most existing approaches remain task-specific, system-dependent, and limited in their ability to generalize across different networks and operating conditions.</p>
-
-        <p>This talk explores the emerging concept of Grid Foundation Models: large-scale, general-purpose AI models that learn transferable representations of power systems from heterogeneous data, network topology, physical models, and operational experience. We will discuss how advances in foundation models, graph-based learning, and physics-informed AI could enable a shift from narrowly optimized solutions toward adaptable models capable of supporting diverse tasks, including power flow estimation, contingency analysis, stability assessment, forecasting, and operational decision support.</p>
-
-        <p>Particular attention will be given to the challenges that distinguish grid foundation models from foundation models in other domains, including the need to respect physical laws, capture network dependencies, generalize across grid topologies and scales, and provide trustworthy predictions under changing operating conditions. We will conclude with a perspective on the research opportunities and foundational advances needed to develop scalable, physically grounded, and reliable AI models for the next generation of power systems.</p>
+        <p>The increasingly complex, uncertain, and dynamic nature of modern power grids poses unprecedented challenges for ensuring system reliability and security. Artificial intelligence (AI) offers powerful new capabilities for learning system behaviours, extracting insights from large-scale data, and supporting real-time decision-making. Yet, at the heart of power system analysis lies a simple relationship: I = YV. Drawing examples from various application settings, the fundamental law of physics provides the lens through which this talk explores the opportunities and limitations of AI in power system control and operation. We conclude with a forward- and backward-looking perspective on the evolving role of models, physics, and innovation in shaping future power grids.</p>
       </div>
     </details>
     <details class="person-card__details">
-      <summary aria-label="Biography of Hendrik Hamann">Biography</summary>
-      <p class="person-card__bio">Dr. Hamann is the Chief AI Scientist at Brookhaven National Laboratory for Innovation, Science and Security and a Professor at Stony Brook University. Dr. Hamann spent two decades at IBM Research, most recently as Chief Science Officer for IBM Research at the T.J. Watson Research Center. His technical work centered on AI for science. He helped develop a new generation of AI foundation models, which are massive, physics-informed AI systems that learn from and emulate the complexity of natural and engineered environments. He now spearheads the development of AI foundation models for the electric grid, designed to improve resilience and accelerate grid modernization. Dr. Hamann, a Fellow of the American Physical Society, authored over 260 scientific papers and holds more than 180 patents. His contributions have earned him honors, including the American Institute of Physics Prize for Industrial Applications of Physics and the Cozzarelli Prize of the National Academy of Sciences.</p>
+      <summary aria-label="Biography of Christine Chen">Biography</summary>
+      <p class="person-card__bio">Christine Chen is an Associate Professor with the Department of Electrical and Computer Engineering and an Associate Director of the Clean Energy Research Centre at The University of British Columbia. Her research interests include power system modelling, control, and operation. She received the B.A.Sc. degree in engineering science from the University of Toronto and the M.S. and Ph.D. degrees in electrical engineering from the University of Illinois at Urbana-Champaign. Her work has been recognized with a Best Paper Award from the IEEE Transactions on Energy Conversion, an IEEE Power and Energy Society Prize Paper Award, and a "Best of the Best" Prize Conference Paper Award at the IEEE Power and Energy Society General Meeting. Christine serves or has served on the editorial boards of the IEEE Transactions on Power Systems, the IEEE Transactions on Smart Grid, and the IEEE Transactions on Energy Conversion.</p>
     </details>
   </div>
 </div>
@@ -85,21 +81,25 @@ All times are local to Sydney (AEDT).
   </div>
 </div>
 
-<div class="person-card" id="christine-chen">
-  <img src="{{ '/assets/people/christine-chen.jpg' | relative_url }}" alt="Christine Chen" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
+<div class="person-card" id="hendrik-hamann">
+  <img src="{{ '/assets/people/hendrik-hamann.jpg' | relative_url }}" alt="Hendrik Hamann" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
   <div class="person-card__body">
-    <h3>Christine Chen</h3>
-    <p class="person-card__affiliation">The University of British Columbia</p>
-    <p class="person-card__talk">AI for control and operation of modern power grids: opportunities and challenges</p>
+    <h3>Hendrik Hamann</h3>
+    <p class="person-card__affiliation">Stony Brook University and Brookhaven National Laboratory</p>
+    <p class="person-card__talk">Quo vadis - Grid Foundation Models</p>
     <details class="person-card__details">
-      <summary aria-label="Abstract for Christine Chen">Abstract</summary>
+      <summary aria-label="Abstract for Hendrik Hamann">Abstract</summary>
       <div class="person-card__abstract">
-        <p>The increasingly complex, uncertain, and dynamic nature of modern power grids poses unprecedented challenges for ensuring system reliability and security. Artificial intelligence (AI) offers powerful new capabilities for learning system behaviours, extracting insights from large-scale data, and supporting real-time decision-making. Yet, at the heart of power system analysis lies a simple relationship: I = YV. Drawing examples from various application settings, the fundamental law of physics provides the lens through which this talk explores the opportunities and limitations of AI in power system control and operation. We conclude with a forward- and backward-looking perspective on the evolving role of models, physics, and innovation in shaping future power grids.</p>
+        <p>The growing complexity of electric power systems, driven by renewable energy integration, distributed energy resources, and increasingly dynamic operating conditions, calls for new approaches to grid modeling, analysis, and control. While artificial intelligence and machine learning have demonstrated significant promise across individual power system applications, most existing approaches remain task-specific, system-dependent, and limited in their ability to generalize across different networks and operating conditions.</p>
+
+        <p>This talk explores the emerging concept of Grid Foundation Models: large-scale, general-purpose AI models that learn transferable representations of power systems from heterogeneous data, network topology, physical models, and operational experience. We will discuss how advances in foundation models, graph-based learning, and physics-informed AI could enable a shift from narrowly optimized solutions toward adaptable models capable of supporting diverse tasks, including power flow estimation, contingency analysis, stability assessment, forecasting, and operational decision support.</p>
+
+        <p>Particular attention will be given to the challenges that distinguish grid foundation models from foundation models in other domains, including the need to respect physical laws, capture network dependencies, generalize across grid topologies and scales, and provide trustworthy predictions under changing operating conditions. We will conclude with a perspective on the research opportunities and foundational advances needed to develop scalable, physically grounded, and reliable AI models for the next generation of power systems.</p>
       </div>
     </details>
     <details class="person-card__details">
-      <summary aria-label="Biography of Christine Chen">Biography</summary>
-      <p class="person-card__bio">Christine Chen is an Associate Professor with the Department of Electrical and Computer Engineering and an Associate Director of the Clean Energy Research Centre at The University of British Columbia. Her research interests include power system modelling, control, and operation. She received the B.A.Sc. degree in engineering science from the University of Toronto and the M.S. and Ph.D. degrees in electrical engineering from the University of Illinois at Urbana-Champaign. Her work has been recognized with a Best Paper Award from the IEEE Transactions on Energy Conversion, an IEEE Power and Energy Society Prize Paper Award, and a "Best of the Best" Prize Conference Paper Award at the IEEE Power and Energy Society General Meeting. Christine serves or has served on the editorial boards of the IEEE Transactions on Power Systems, the IEEE Transactions on Smart Grid, and the IEEE Transactions on Energy Conversion.</p>
+      <summary aria-label="Biography of Hendrik Hamann">Biography</summary>
+      <p class="person-card__bio">Dr. Hamann is the Chief AI Scientist at Brookhaven National Laboratory for Innovation, Science and Security and a Professor at Stony Brook University. Dr. Hamann spent two decades at IBM Research, most recently as Chief Science Officer for IBM Research at the T.J. Watson Research Center. His technical work centered on AI for science. He helped develop a new generation of AI foundation models, which are massive, physics-informed AI systems that learn from and emulate the complexity of natural and engineered environments. He now spearheads the development of AI foundation models for the electric grid, designed to improve resilience and accelerate grid modernization. Dr. Hamann, a Fellow of the American Physical Society, authored over 260 scientific papers and holds more than 180 patents. His contributions have earned him honors, including the American Institute of Physics Prize for Industrial Applications of Physics and the Cozzarelli Prize of the National Academy of Sciences.</p>
     </details>
   </div>
 </div>
@@ -214,6 +214,18 @@ This talk takes a different starting point. Using real smart meter data from Vic
     <details class="person-card__details">
       <summary aria-label="Biography of Arnaud Zinflou">Biography</summary>
       <p class="person-card__bio">Arnaud Zinflou is a Principal Research Scientist at the Hydro-Québec Research Institute (IREQ), where he leads research and development activities in artificial intelligence for power systems and industrial applications. His work spans time-series forecasting, computer vision, representation learning, uncertainty quantification, and trustworthy AI. At Hydro-Québec, he contributes to the development and deployment of AI solutions supporting grid operations, asset management, infrastructure inspection, and decision support. His recent research focuses on foundation and world models for time series, self-supervised learning, and operationally reliable AI systems for critical infrastructure. He is the author or co-author of more than 50 scientific papers, 7 book chapters, and 3 patents, and has been an IEEE Senior Member since 2015.</p>
+    </details>
+  </div>
+</div>
+
+<div class="person-card" id="james-mcneill">
+  <img src="{{ '/assets/people/james-mcneill.jpg' | relative_url }}" alt="James McNeill" onerror="this.src='{{ '/assets/people/placeholder.svg' | relative_url }}'" />
+  <div class="person-card__body">
+    <h3>James McNeill</h3>
+    <p class="person-card__affiliation">GE Vernova, Grid Software</p>
+    <details class="person-card__details">
+      <summary aria-label="Biography of James McNeill">Biography</summary>
+      <p class="person-card__bio">Dr. James McNeill, PE, leads AI/ML for Applied Grid Innovation at GE Vernova Grid Software, where his team builds multi-agent AI systems and machine learning models for grid operations and planning, including secure on-premises deployments for utilities. He previously worked at Pacific Northwest National Laboratory, industry and in startups.</p>
     </details>
   </div>
 </div>
