@@ -555,6 +555,10 @@ li { margin: 0.4em 0; }
   font-size: 1.2rem;
 }
 
+.lunch-sponsor p {
+  font-size: 0.9rem;
+}
+
 .lunch-sponsor p:last-child {
   margin-bottom: 0;
 }
