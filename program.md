@@ -24,7 +24,7 @@ All times are local to Sydney (AEDT).
 | 12:00 – 13:00 | Networking lunch sponsored by **[Microsoft Research](#lunch-sponsor-heading)** + invited talk: **[Luis Piloto](#luis-piloto)**<br>*Accelerating Power System Optimization with Machine Learning* |
 | 13:00 – 13:45 | Panel: *What would it take for AI models to enter a power grid control room?*<br>Panelists: **[Arnaud Zinflou](#arnaud-zinflou)**, **[Priya Donti](#priya-donti)**, and **[James McNeill](#james-mcneill)** |
 | 13:45 – 14:00 | **Oral presentation:** [FLARE: Physics-Grounded Evaluation of Language-Model Agents for Feeder Restoration with Degraded Observations](https://openreview.net/forum?id=MlSQ7ZNHOL)<br>BHVSP Subrahmanyam, Neeraj Choudhary |
-| 14:00 – 14:30 | Invited talk: **[Pascal Van Hentenryck](#pascal-van-hentenryck)**<br>*Reliable AI for Power Systems Optimization* |
+| 14:00 – 14:30 | Invited talk: **[Pascal Van Hentenryck](#pascal-van-hentenryck)**<br>*Trustworthy AI for Power Systems Operations* |
 | 14:30 – 15:00 | Invited talk: **[Minghua Chen](#minghua-chen)**<br>*Machine Learning for Optimal Power Flow: Beyond Soft Penalties to Hard Constraint Guarantees* |
 | 15:00 – 15:30 | Coffee break and [poster session](/accepted-papers#poster-presentations), *part 2* |
 | 15:30 – 16:00 | Invited talk: **[Bernardo Costa](#bernardo-costa)**<br>*Can we detect multistage strategies in the Energy market?* |
@@ -128,7 +128,13 @@ All times are local to Sydney (AEDT).
   <div class="person-card__body">
     <h3>Pascal Van Hentenryck</h3>
     <p class="person-card__affiliation">Georgia Tech and Gurobi Optimization</p>
-    <p class="person-card__talk">Reliable AI for Power Systems Optimization</p>
+    <p class="person-card__talk">Trustworthy AI for Power Systems Operations</p>
+    <details class="person-card__details">
+      <summary aria-label="Abstract for Pascal Van Hentenryck">Abstract</summary>
+      <div class="person-card__abstract">
+        <p>In many industry power systems applications, the same optimization problem is solved repeatedly for instances taken from a distribution that can be learned or forecasted. This talk studies how to speed up these parametric optimization problems to meet real-time constraints present in many applications. It reviews the concept of optimization proxies that learn the input/output mappings of parametric optimization problems. This novel methodology is demonstrated on industrial problems in grid optimization, including real-time risk assessment, security-constrained OPF, and the management of storage resources. These results show that the fusion of AI and Optimization can deliver outcomes that the two technologies cannot achieve independently.</p>
+      </div>
+    </details>
     <details class="person-card__details">
       <summary aria-label="Biography of Pascal Van Hentenryck">Biography</summary>
       <p class="person-card__bio">Pascal Van Hentenryck is the A. Russell Chandler III Chair and Professor in ISyE at Georgia Tech, the director of the US National Science Foundation (NSF) AI Institute for Advances in Optimization (AI4OPT), and the head of the AI Innovation lab at Gurobi Optimization. He was a professor of Computer Science at Brown University for over 20 years and led the optimization research group at National ICT Australia. Van Hentenryck is a pioneer of constraint programming, and designed several optimization systems that have been in commercial use for over 20 years. He has published 6 books and over 400 articles. He is a fellow of AAAI and INFORMS, and the recipient of two honorary degrees and numerous awards. His current research focuses on fusing AI and optimization for engineering with primary applications in energy systems, supply chains, manufacturing, and health care.</p>
