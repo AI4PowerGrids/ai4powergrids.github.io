@@ -9,7 +9,7 @@ title: Program
 
 All times are local to Sydney (AEDT).
 
-*NeurIPS will provide coffee, tea, and snacks from 08:00 – 09:30 and 15:00 – 15:30.*
+*NeurIPS will provide coffee, tea, and snacks from 09:00 – 09:30 and 15:00 – 15:30.*
 
 | Time | Session |
 |---|---|
